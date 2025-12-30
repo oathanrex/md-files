@@ -79,6 +79,7 @@ If the AI keeps making the same mistake, say this:
 ---
 
 **If you have a specific piece of code that is not working right now, you can try this.**
+
 TASK:
 Understand the concept, functionality, and behavior of this code,
 and then rewrite similar code, but with better implementation and performance
