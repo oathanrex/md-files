@@ -78,7 +78,31 @@ If the AI keeps making the same mistake, say this:
 
 ---
 
-**If you have a specific piece of code that is not working right now, you can paste it here, and I can help you fix it.**
+**If you have a specific piece of code that is not working right now, you can try this.**
+TASK:
+Understand the concept, functionality, and behavior of this code,
+and then rewrite similar code, but with better implementation and performance
+than the original.
 
+STRICT RULES (very important):
+1. You will not add any themes, color schemes, UI styles, emojis, icons,
+animations, branding, or creative touches of your own.
+2. Write only clean, professional, and minimal code.
+3. No emojis, decorative comments, or fancy formatting should be used.
+4. CSS and JS should be for functionality only, not visual over-design.
+5. The code must be modular, readable, and optimized.
+6. Use only HTML, CSS, and JavaScript.
+7. The output must be exactly working and directly runnable.
+
+IMPROVEMENT REQUIREMENTS:
+- The code structure should be cleaner.
+- Remove unnecessary repetition.
+- Improve performance and readability.
+- The logic should be clearly separated.
+
+OUTPUT FORMAT:
+- First, provide a short explanation (maximum 5 lines).
+- Then, provide the complete HTML, CSS, and JavaScript code.
+- Do not include any extra commentary, emojis, or personal text.
 ---
 
