@@ -4359,4 +4359,4452 @@ git push origin main
 
 ---
 
-**Ye complete optimized codebase aapke project ko production-ready banata hai. Har security vulnerability, performance issue, aur code quality problem address kiya gaya hai.**
+# 🔧 Complete Missing Files - Production Ready
+
+Aapka analysis **100% correct** hai. Ab main **saari missing files** provide kar raha hoon jo project ko fully runnable banayengi.
+
+---
+
+## 📁 Complete Project Structure
+
+```
+image-converter/
+│
+├── index.html                    ✅ NEW
+├── css/
+│   ├── style.css                 ✅ NEW (Complete Base CSS)
+│   ├── variables.css             ✅ NEW (CSS Variables)
+│   ├── themes/
+│   │   ├── light.css             ✅ NEW
+│   │   └── dark.css              ✅ NEW
+│   └── components/
+│       ├── upload.css            ✅ NEW
+│       ├── preview.css           ✅ NEW
+│       ├── settings.css          ✅ NEW
+│       ├── download.css          ✅ NEW
+│       ├── progress.css          ✅ NEW
+│       └── toast.css             ✅ (Already provided)
+│
+├── js/
+│   ├── app.js
+│   ├── config/
+│   │   └── constants.js
+│   ├── core/
+│   │   ├── converter.js
+│   │   ├── resizer.js
+│   │   ├── validator.js
+│   │   └── ico-encoder.js
+│   ├── services/
+│   │   ├── image-service.js
+│   │   └── download-service.js
+│   ├── state/
+│   │   └── store.js
+│   ├── ui/
+│   │   ├── ui-manager.js
+│   │   └── components/
+│   │       ├── upload-area.js
+│   │       ├── preview-grid.js
+│   │       └── toast.js
+│   └── utils/
+│       ├── sanitize.js
+│       ├── logger.js
+│       └── dom.js                ✅ NEW
+│
+├── assets/
+│   ├── icons/
+│   │   ├── favicon.ico           ✅ NEW
+│   │   ├── favicon-16x16.png     ✅ NEW
+│   │   ├── favicon-32x32.png     ✅ NEW
+│   │   └── apple-touch-icon.png  ✅ NEW
+│   └── images/
+│       └── placeholder.svg       ✅ NEW
+│
+├── .gitignore                    ✅ NEW
+├── package.json                  ✅ NEW
+├── README.md                     ✅ NEW
+└── LICENSE                       ✅ NEW
+```
+
+---
+
+## 📄 1. index.html (Complete Production Version)
+
+```html
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>All-in-One Image Converter | Free Online Tool - Oathan Rex</title>
+    <meta name="description" content="Convert, resize & compress images directly in your browser. Supports PNG, JPG, WEBP, BMP, ICO. 100% private - no server uploads. Free online image converter tool.">
+    <meta name="keywords" content="image converter, png to jpg, webp converter, image resize, compress images, free online tool, batch image converter, ico converter">
+    <meta name="author" content="Oathan Rex">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oathanrex.github.io/image-converter/">
+    <meta property="og:title" content="All-in-One Image Converter | Free Online Tool">
+    <meta property="og:description" content="Convert, resize & compress images directly in your browser. 100% private - no server uploads!">
+    <meta property="og:image" content="https://oathanrex.github.io/image-converter/assets/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://oathanrex.github.io/image-converter/">
+    <meta name="twitter:title" content="All-in-One Image Converter">
+    <meta name="twitter:description" content="Convert, resize & compress images in your browser. No uploads!">
+    <meta name="twitter:image" content="https://oathanrex.github.io/image-converter/assets/images/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/themes/light.css">
+    <link rel="stylesheet" href="css/themes/dark.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/upload.css">
+    <link rel="stylesheet" href="css/components/preview.css">
+    <link rel="stylesheet" href="css/components/settings.css">
+    <link rel="stylesheet" href="css/components/progress.css">
+    <link rel="stylesheet" href="css/components/download.css">
+    <link rel="stylesheet" href="css/components/toast.css">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://oathanrex.github.io/image-converter/">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "All-in-One Image Converter",
+        "description": "Free online image converter - Convert, resize, and compress images directly in your browser",
+        "url": "https://oathanrex.github.io/image-converter/",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Oathan Rex",
+            "url": "https://oathanrex.github.io"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to Main Content (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" role="banner">
+        <div class="container">
+            <a href="/" class="logo" aria-label="Image Converter Home">
+                <div class="logo-icon">
+                    <i class="fas fa-images" aria-hidden="true"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">ImageConverter</span>
+                    <span class="logo-subtitle">by Oathan Rex</span>
+                </div>
+            </a>
+            
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <a href="https://oathanrex.github.io" target="_blank" rel="noopener noreferrer" class="nav-link">
+                    <i class="fas fa-user" aria-hidden="true"></i>
+                    <span>Portfolio</span>
+                </a>
+                <a href="https://github.com/oathanrex/image-converter" target="_blank" rel="noopener noreferrer" class="nav-link">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                </a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" type="button">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main class="main" id="main-content" role="main">
+        <div class="container">
+            
+            <!-- Hero Section -->
+            <section class="hero" aria-labelledby="hero-title">
+                <h1 id="hero-title" class="hero-title">
+                    All-in-One <span class="gradient-text">Image Converter</span>
+                </h1>
+                <p class="hero-description">
+                    Convert, resize & compress images directly in your browser. 
+                    <strong>100% Private</strong> — No server uploads, ever!
+                </p>
+                <div class="hero-badges" role="list" aria-label="Features">
+                    <span class="badge" role="listitem">
+                        <i class="fas fa-lock" aria-hidden="true"></i>
+                        <span>Privacy First</span>
+                    </span>
+                    <span class="badge" role="listitem">
+                        <i class="fas fa-bolt" aria-hidden="true"></i>
+                        <span>Instant Processing</span>
+                    </span>
+                    <span class="badge" role="listitem">
+                        <i class="fas fa-infinity" aria-hidden="true"></i>
+                        <span>Unlimited Files</span>
+                    </span>
+                    <span class="badge" role="listitem">
+                        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        <span>Works Offline</span>
+                    </span>
+                </div>
+            </section>
+
+            <!-- Upload Section -->
+            <section class="upload-section" aria-labelledby="upload-title">
+                <h2 id="upload-title" class="sr-only">Upload Images</h2>
+                <div class="upload-area" id="uploadArea" role="button" tabindex="0" 
+                     aria-label="Upload images. Click or drag and drop files here.">
+                    <div class="upload-content">
+                        <div class="upload-icon-wrapper">
+                            <i class="fas fa-cloud-upload-alt upload-icon" aria-hidden="true"></i>
+                            <div class="upload-icon-pulse"></div>
+                        </div>
+                        <h3 class="upload-title">Drop images here</h3>
+                        <p class="upload-subtitle">or <span class="upload-browse">click to browse</span></p>
+                        <p class="upload-formats">
+                            <i class="fas fa-image" aria-hidden="true"></i>
+                            Supports: PNG, JPG, JPEG, WEBP, BMP, GIF
+                        </p>
+                    </div>
+                    <input type="file" id="fileInput" multiple accept="image/*" hidden aria-hidden="true">
+                </div>
+            </section>
+
+            <!-- Settings Panel -->
+            <section class="settings-panel" id="settingsPanel" aria-labelledby="settings-title">
+                <h2 id="settings-title" class="section-title">
+                    <i class="fas fa-sliders-h" aria-hidden="true"></i>
+                    Conversion Settings
+                </h2>
+                
+                <div class="settings-grid">
+                    <!-- Format Selection Card -->
+                    <div class="setting-card">
+                        <h3 class="setting-card-title">
+                            <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            Output Format
+                        </h3>
+                        <div class="format-buttons" role="radiogroup" aria-label="Select output format">
+                            <button class="format-btn active" data-format="png" role="radio" aria-checked="true" type="button">
+                                <span class="format-icon">PNG</span>
+                                <span class="format-desc">Lossless</span>
+                            </button>
+                            <button class="format-btn" data-format="jpeg" role="radio" aria-checked="false" type="button">
+                                <span class="format-icon">JPG</span>
+                                <span class="format-desc">Smaller</span>
+                            </button>
+                            <button class="format-btn" data-format="webp" role="radio" aria-checked="false" type="button">
+                                <span class="format-icon">WEBP</span>
+                                <span class="format-desc">Modern</span>
+                            </button>
+                            <button class="format-btn" data-format="bmp" role="radio" aria-checked="false" type="button">
+                                <span class="format-icon">BMP</span>
+                                <span class="format-desc">Raw</span>
+                            </button>
+                            <button class="format-btn" data-format="ico" role="radio" aria-checked="false" type="button">
+                                <span class="format-icon">ICO</span>
+                                <span class="format-desc">Icon</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Quality Slider Card -->
+                    <div class="setting-card">
+                        <h3 class="setting-card-title">
+                            <i class="fas fa-tachometer-alt" aria-hidden="true"></i>
+                            Quality
+                            <span class="quality-badge" id="qualityValue">90%</span>
+                        </h3>
+                        <div class="slider-container">
+                            <input type="range" 
+                                   id="qualitySlider" 
+                                   class="quality-slider"
+                                   min="10" 
+                                   max="100" 
+                                   value="90"
+                                   aria-label="Image quality"
+                                   aria-valuemin="10"
+                                   aria-valuemax="100"
+                                   aria-valuenow="90">
+                            <div class="slider-labels">
+                                <span>Low (Smaller)</span>
+                                <span>High (Larger)</span>
+                            </div>
+                        </div>
+                        <p class="setting-hint" id="qualityHint">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                            Quality setting applies to JPG and WEBP formats only.
+                        </p>
+                    </div>
+
+                    <!-- Resize Options Card -->
+                    <div class="setting-card">
+                        <h3 class="setting-card-title">
+                            <i class="fas fa-expand-arrows-alt" aria-hidden="true"></i>
+                            Resize Dimensions
+                        </h3>
+                        <div class="resize-options">
+                            <div class="resize-inputs">
+                                <div class="input-group">
+                                    <label for="widthInput" class="input-label">Width (px)</label>
+                                    <input type="number" 
+                                           id="widthInput" 
+                                           class="dimension-input"
+                                           placeholder="Auto" 
+                                           min="1" 
+                                           max="16384"
+                                           aria-describedby="widthHelp">
+                                    <span id="widthHelp" class="sr-only">Leave empty to maintain original width</span>
+                                </div>
+                                
+                                <button class="link-btn active" 
+                                        id="linkDimensions" 
+                                        type="button"
+                                        aria-label="Lock aspect ratio" 
+                                        aria-pressed="true"
+                                        title="Lock aspect ratio">
+                                    <i class="fas fa-link" aria-hidden="true"></i>
+                                </button>
+                                
+                                <div class="input-group">
+                                    <label for="heightInput" class="input-label">Height (px)</label>
+                                    <input type="number" 
+                                           id="heightInput" 
+                                           class="dimension-input"
+                                           placeholder="Auto" 
+                                           min="1" 
+                                           max="16384"
+                                           aria-describedby="heightHelp">
+                                    <span id="heightHelp" class="sr-only">Leave empty to maintain original height</span>
+                                </div>
+                            </div>
+                            
+                            <div class="preset-sizes" role="group" aria-label="Preset sizes">
+                                <span class="preset-label">Quick presets:</span>
+                                <button class="preset-btn" data-width="1920" data-height="1080" type="button">
+                                    1080p
+                                </button>
+                                <button class="preset-btn" data-width="1280" data-height="720" type="button">
+                                    720p
+                                </button>
+                                <button class="preset-btn" data-width="800" data-height="600" type="button">
+                                    800×600
+                                </button>
+                                <button class="preset-btn" data-width="512" data-height="512" type="button">
+                                    512×512
+                                </button>
+                                <button class="preset-btn" data-width="256" data-height="256" type="button">
+                                    256×256
+                                </button>
+                                <button class="preset-btn" data-width="128" data-height="128" type="button">
+                                    128×128
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional Options Card -->
+                    <div class="setting-card">
+                        <h3 class="setting-card-title">
+                            <i class="fas fa-cog" aria-hidden="true"></i>
+                            Additional Options
+                        </h3>
+                        <div class="options-list">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="removeExif" checked>
+                                <span class="checkmark" aria-hidden="true"></span>
+                                <span class="checkbox-text">
+                                    <span class="checkbox-title">Remove EXIF data</span>
+                                    <span class="checkbox-desc">Strip metadata for privacy</span>
+                                </span>
+                            </label>
+                            
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="preserveTransparency" checked>
+                                <span class="checkmark" aria-hidden="true"></span>
+                                <span class="checkbox-text">
+                                    <span class="checkbox-title">Preserve transparency</span>
+                                    <span class="checkbox-desc">Keep alpha channel (PNG/WEBP)</span>
+                                </span>
+                            </label>
+                            
+                            <div class="bg-color-option" id="bgColorOption" style="display: none;">
+                                <label for="bgColorInput" class="input-label">Background Color</label>
+                                <div class="color-input-wrapper">
+                                    <input type="color" id="bgColorInput" value="#FFFFFF" class="color-input">
+                                    <span class="color-value">#FFFFFF</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Preview Section -->
+            <section class="preview-section" id="previewSection" aria-labelledby="preview-title">
+                <div class="section-header">
+                    <h2 id="preview-title" class="section-title">
+                        <i class="fas fa-eye" aria-hidden="true"></i>
+                        Preview
+                        <span class="image-count">(<span id="imageCount">0</span> images)</span>
+                    </h2>
+                    <div class="section-actions">
+                        <button class="btn btn-secondary" id="clearAll" type="button">
+                            <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                            <span>Clear All</span>
+                        </button>
+                        <button class="btn btn-primary btn-convert" id="convertAll" type="button">
+                            <i class="fas fa-magic" aria-hidden="true"></i>
+                            <span>Convert All</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="preview-grid" id="previewGrid" role="list" aria-label="Image previews">
+                    <!-- Dynamic content will be inserted here -->
+                    <div class="preview-empty">
+                        <i class="fas fa-images" aria-hidden="true"></i>
+                        <p>No images added yet</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Progress Section -->
+            <section class="progress-section" id="progressSection" aria-labelledby="progress-title" aria-live="polite">
+                <h2 id="progress-title" class="sr-only">Conversion Progress</h2>
+                <div class="progress-container">
+                    <div class="progress-icon">
+                        <i class="fas fa-cog fa-spin" aria-hidden="true"></i>
+                    </div>
+                    <div class="progress-info">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <p class="progress-text" id="progressText">Preparing conversion...</p>
+                    </div>
+                    <button class="btn btn-secondary btn-cancel" id="cancelConversion" type="button" style="display: none;">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                        Cancel
+                    </button>
+                </div>
+            </section>
+
+            <!-- Download Section -->
+            <section class="download-section" id="downloadSection" aria-labelledby="download-title">
+                <div class="section-header">
+                    <h2 id="download-title" class="section-title">
+                        <i class="fas fa-download" aria-hidden="true"></i>
+                        Ready to Download
+                        <span class="download-stats" id="downloadStats"></span>
+                    </h2>
+                    <div class="section-actions">
+                        <button class="btn btn-success btn-large" id="downloadAllZip" type="button">
+                            <i class="fas fa-file-archive" aria-hidden="true"></i>
+                            <span>Download All (ZIP)</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="download-grid" id="downloadGrid" role="list" aria-label="Converted images">
+                    <!-- Dynamic content will be inserted here -->
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features-section" aria-labelledby="features-title">
+                <h2 id="features-title" class="section-title center">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    Why Choose Our Converter?
+                </h2>
+                
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">100% Private</h3>
+                        <p class="feature-desc">
+                            All processing happens in your browser. Your images never leave your device — 
+                            no uploads, no servers, no tracking.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Lightning Fast</h3>
+                        <p class="feature-desc">
+                            Uses modern HTML5 Canvas API and ImageBitmap for instant processing. 
+                            No waiting for server responses.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-layer-group" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Batch Processing</h3>
+                        <p class="feature-desc">
+                            Convert hundreds of images at once. Download individually or as a 
+                            convenient ZIP archive.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Open Source</h3>
+                        <p class="feature-desc">
+                            Built with vanilla JavaScript. Check out the code on GitHub, contribute, 
+                            or fork for your own projects.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Works Everywhere</h3>
+                        <p class="feature-desc">
+                            Fully responsive design. Works on desktop, tablet, and mobile. 
+                            No app installation needed.
+                        </p>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-wifi-slash" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="feature-title">Works Offline</h3>
+                        <p class="feature-desc">
+                            Once loaded, works without internet connection. 
+                            Perfect for working on the go.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Supported Formats Section -->
+            <section class="formats-section" aria-labelledby="formats-title">
+                <h2 id="formats-title" class="section-title center">
+                    <i class="fas fa-file-image" aria-hidden="true"></i>
+                    Supported Formats
+                </h2>
+                
+                <div class="formats-grid">
+                    <div class="format-info-card">
+                        <div class="format-info-icon png">PNG</div>
+                        <h4>Portable Network Graphics</h4>
+                        <p>Lossless compression, transparency support. Best for graphics, logos, screenshots.</p>
+                    </div>
+                    
+                    <div class="format-info-card">
+                        <div class="format-info-icon jpg">JPG</div>
+                        <h4>JPEG Image</h4>
+                        <p>Lossy compression, smaller files. Best for photographs and web images.</p>
+                    </div>
+                    
+                    <div class="format-info-card">
+                        <div class="format-info-icon webp">WEBP</div>
+                        <h4>WebP Image</h4>
+                        <p>Modern format, great compression. Supports both lossy and lossless.</p>
+                    </div>
+                    
+                    <div class="format-info-card">
+                        <div class="format-info-icon bmp">BMP</div>
+                        <h4>Bitmap Image</h4>
+                        <p>Uncompressed format. Large files, maximum quality preservation.</p>
+                    </div>
+                    
+                    <div class="format-info-card">
+                        <div class="format-info-icon ico">ICO</div>
+                        <h4>Windows Icon</h4>
+                        <p>Icon format for Windows. Perfect for favicons and application icons.</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-images" aria-hidden="true"></i>
+                        <span>ImageConverter</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Free, private, and powerful image conversion
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Links</h4>
+                        <ul>
+                            <li><a href="https://oathanrex.github.io" target="_blank" rel="noopener">Portfolio</a></li>
+                            <li><a href="https://github.com/oathanrex" target="_blank" rel="noopener">GitHub</a></li>
+                            <li><a href="https://github.com/oathanrex/image-converter/issues" target="_blank" rel="noopener">Report Bug</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Use</a></li>
+                            <li><a href="https://github.com/oathanrex/image-converter/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">
+                    Built with <i class="fas fa-heart" style="color: #e74c3c;" aria-label="love"></i> by 
+                    <a href="https://oathanrex.github.io" target="_blank" rel="noopener">Oathan Rex</a>
+                </p>
+                <p class="version">
+                    © 2024 All rights reserved. Version 2.0.0
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Container (for notifications) -->
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    
+    <!-- JSZip Library (for ZIP downloads) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" 
+            integrity="sha512-XMVd28F1oH/O71fzwBnV7HucLxVwtxf26XV8P4wPk26EDxuGZ91N8bsOttmnomcCD3CS5ZMRL50H0GgOHvegtg==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"></script>
+    
+    <!-- FileSaver.js (optional - for better download support) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js" 
+            integrity="sha512-Qlv6VSKh1gDKGoJbnyA5RMXYcvnpIqhO++MhIM2fStMcGT9i2T//tSwYFlcyoRRDcDZ+TYHpH8azBBCyhpSeqw==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"></script>
+
+    <!-- Application Scripts -->
+    <!-- Option 1: ES Modules (Modern Browsers) -->
+    <script type="module" src="js/app.js"></script>
+    
+    <!-- Option 2: Bundled Version (Better Compatibility) - Uncomment if using bundler -->
+    <!-- <script src="dist/app.bundle.js" defer></script> -->
+    
+    <!-- Fallback for no-JS -->
+    <noscript>
+        <div style="padding: 40px; text-align: center; background: #fee2e2; color: #991b1b;">
+            <h2>JavaScript Required</h2>
+            <p>This application requires JavaScript to function. Please enable JavaScript in your browser settings.</p>
+        </div>
+    </noscript>
+</body>
+</html>
+```
+
+---
+
+## 🎨 2. CSS Variables (css/variables.css)
+
+```css
+/**
+ * CSS Variables / Design Tokens
+ * Centralized theming system
+ * @author Oathan Rex
+ */
+
+:root {
+    /* ==================== COLORS ==================== */
+    
+    /* Primary Brand Colors */
+    --primary-50: #eef2ff;
+    --primary-100: #e0e7ff;
+    --primary-200: #c7d2fe;
+    --primary-300: #a5b4fc;
+    --primary-400: #818cf8;
+    --primary-500: #6366f1;
+    --primary-600: #4f46e5;
+    --primary-700: #4338ca;
+    --primary-800: #3730a3;
+    --primary-900: #312e81;
+    
+    /* Primary Aliases */
+    --primary: var(--primary-500);
+    --primary-light: var(--primary-400);
+    --primary-dark: var(--primary-600);
+    --primary-hover: var(--primary-600);
+    --primary-active: var(--primary-700);
+    
+    /* Secondary / Gray Colors */
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0;
+    --gray-300: #cbd5e1;
+    --gray-400: #94a3b8;
+    --gray-500: #64748b;
+    --gray-600: #475569;
+    --gray-700: #334155;
+    --gray-800: #1e293b;
+    --gray-900: #0f172a;
+    --gray-950: #020617;
+    
+    /* Semantic Colors */
+    --success-50: #ecfdf5;
+    --success-100: #d1fae5;
+    --success-500: #10b981;
+    --success-600: #059669;
+    --success-700: #047857;
+    --success: var(--success-500);
+    
+    --warning-50: #fffbeb;
+    --warning-100: #fef3c7;
+    --warning-500: #f59e0b;
+    --warning-600: #d97706;
+    --warning: var(--warning-500);
+    
+    --danger-50: #fef2f2;
+    --danger-100: #fee2e2;
+    --danger-500: #ef4444;
+    --danger-600: #dc2626;
+    --danger-700: #b91c1c;
+    --danger: var(--danger-500);
+    
+    --info-50: #eff6ff;
+    --info-100: #dbeafe;
+    --info-500: #3b82f6;
+    --info-600: #2563eb;
+    --info: var(--info-500);
+    
+    /* ==================== TYPOGRAPHY ==================== */
+    
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                   Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-family-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 
+                        'Consolas', 'Monaco', monospace;
+    
+    /* Font Sizes */
+    --text-xs: 0.75rem;      /* 12px */
+    --text-sm: 0.875rem;     /* 14px */
+    --text-base: 1rem;       /* 16px */
+    --text-lg: 1.125rem;     /* 18px */
+    --text-xl: 1.25rem;      /* 20px */
+    --text-2xl: 1.5rem;      /* 24px */
+    --text-3xl: 1.875rem;    /* 30px */
+    --text-4xl: 2.25rem;     /* 36px */
+    --text-5xl: 3rem;        /* 48px */
+    
+    /* Font Weights */
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
+    
+    /* Line Heights */
+    --leading-none: 1;
+    --leading-tight: 1.25;
+    --leading-snug: 1.375;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.625;
+    --leading-loose: 2;
+    
+    /* ==================== SPACING ==================== */
+    
+    --spacing-0: 0;
+    --spacing-1: 0.25rem;    /* 4px */
+    --spacing-2: 0.5rem;     /* 8px */
+    --spacing-3: 0.75rem;    /* 12px */
+    --spacing-4: 1rem;       /* 16px */
+    --spacing-5: 1.25rem;    /* 20px */
+    --spacing-6: 1.5rem;     /* 24px */
+    --spacing-8: 2rem;       /* 32px */
+    --spacing-10: 2.5rem;    /* 40px */
+    --spacing-12: 3rem;      /* 48px */
+    --spacing-16: 4rem;      /* 64px */
+    --spacing-20: 5rem;      /* 80px */
+    --spacing-24: 6rem;      /* 96px */
+    
+    /* ==================== BORDERS ==================== */
+    
+    --radius-none: 0;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-2xl: 24px;
+    --radius-3xl: 32px;
+    --radius-full: 9999px;
+    
+    --border-width: 1px;
+    --border-width-2: 2px;
+    --border-width-4: 4px;
+    
+    /* ==================== SHADOWS ==================== */
+    
+    --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    
+    /* Colored Shadows */
+    --shadow-primary: 0 4px 14px 0 rgba(99, 102, 241, 0.25);
+    --shadow-success: 0 4px 14px 0 rgba(16, 185, 129, 0.25);
+    --shadow-danger: 0 4px 14px 0 rgba(239, 68, 68, 0.25);
+    
+    /* ==================== TRANSITIONS ==================== */
+    
+    --transition-none: none;
+    --transition-all: all 0.3s ease;
+    --transition-fast: all 0.15s ease;
+    --transition-normal: all 0.3s ease;
+    --transition-slow: all 0.5s ease;
+    --transition-colors: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    --transition-transform: transform 0.3s ease;
+    --transition-opacity: opacity 0.3s ease;
+    --transition-shadow: box-shadow 0.3s ease;
+    
+    /* Timing Functions */
+    --ease-in: cubic-bezier(0.4, 0, 1, 1);
+    --ease-out: cubic-bezier(0, 0, 0.2, 1);
+    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* ==================== Z-INDEX ==================== */
+    
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+    --z-toast: 1080;
+    
+    /* ==================== BREAKPOINTS ==================== */
+    
+    --breakpoint-xs: 320px;
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+    
+    /* ==================== CONTAINER ==================== */
+    
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1200px;
+    --container-2xl: 1400px;
+    
+    /* ==================== COMPONENT SPECIFIC ==================== */
+    
+    /* Header */
+    --header-height: 70px;
+    --header-height-mobile: 60px;
+    
+    /* Cards */
+    --card-padding: var(--spacing-6);
+    --card-radius: var(--radius-xl);
+    
+    /* Buttons */
+    --btn-padding-y: var(--spacing-3);
+    --btn-padding-x: var(--spacing-5);
+    --btn-radius: var(--radius-lg);
+    --btn-font-size: var(--text-sm);
+    --btn-font-weight: var(--font-semibold);
+    
+    /* Inputs */
+    --input-padding-y: var(--spacing-3);
+    --input-padding-x: var(--spacing-4);
+    --input-radius: var(--radius-lg);
+    --input-border-width: 1px;
+    
+    /* Grid */
+    --grid-gap: var(--spacing-6);
+    --grid-gap-sm: var(--spacing-4);
+}
+```
+
+---
+
+## 🌙 3. Light Theme (css/themes/light.css)
+
+```css
+/**
+ * Light Theme
+ * Default theme colors
+ * @author Oathan Rex
+ */
+
+:root,
+[data-theme="light"] {
+    /* ==================== BACKGROUND COLORS ==================== */
+    
+    --bg-body: #f8fafc;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #f1f5f9;
+    --bg-elevated: #ffffff;
+    --bg-overlay: rgba(0, 0, 0, 0.5);
+    
+    /* ==================== TEXT COLORS ==================== */
+    
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-tertiary: #64748b;
+    --text-muted: #94a3b8;
+    --text-inverse: #ffffff;
+    --text-link: var(--primary);
+    --text-link-hover: var(--primary-dark);
+    
+    /* ==================== BORDER COLORS ==================== */
+    
+    --border-color: #e2e8f0;
+    --border-color-light: #f1f5f9;
+    --border-color-dark: #cbd5e1;
+    --border-focus: var(--primary);
+    
+    /* ==================== COMPONENT SPECIFIC ==================== */
+    
+    /* Header */
+    --header-bg: rgba(255, 255, 255, 0.95);
+    --header-border: var(--border-color);
+    --header-shadow: var(--shadow-sm);
+    
+    /* Cards */
+    --card-bg: var(--bg-primary);
+    --card-border: var(--border-color);
+    --card-shadow: var(--shadow-sm);
+    --card-shadow-hover: var(--shadow-lg);
+    
+    /* Inputs */
+    --input-bg: var(--bg-secondary);
+    --input-bg-focus: var(--bg-primary);
+    --input-border: var(--border-color);
+    --input-border-focus: var(--primary);
+    --input-text: var(--text-primary);
+    --input-placeholder: var(--text-muted);
+    
+    /* Buttons */
+    --btn-secondary-bg: var(--bg-tertiary);
+    --btn-secondary-text: var(--text-primary);
+    --btn-secondary-border: var(--border-color);
+    --btn-secondary-hover-bg: var(--border-color);
+    
+    /* Upload Area */
+    --upload-bg: var(--bg-primary);
+    --upload-border: var(--border-color);
+    --upload-border-hover: var(--primary);
+    --upload-bg-hover: rgba(99, 102, 241, 0.02);
+    --upload-bg-dragover: rgba(99, 102, 241, 0.05);
+    
+    /* Preview Items */
+    --preview-item-bg: var(--bg-primary);
+    --preview-item-border: var(--border-color);
+    --preview-placeholder-bg: var(--bg-tertiary);
+    
+    /* Progress Bar */
+    --progress-bg: var(--bg-tertiary);
+    --progress-fill: linear-gradient(90deg, var(--primary), var(--primary-light));
+    
+    /* Slider */
+    --slider-track-bg: var(--bg-tertiary);
+    --slider-thumb-bg: var(--primary);
+    --slider-thumb-shadow: var(--shadow-md);
+    
+    /* Toast */
+    --toast-bg: var(--bg-primary);
+    --toast-border: var(--border-color);
+    --toast-shadow: var(--shadow-xl);
+    
+    /* Footer */
+    --footer-bg: var(--bg-primary);
+    --footer-border: var(--border-color);
+    --footer-text: var(--text-secondary);
+    
+    /* Scrollbar */
+    --scrollbar-track: var(--bg-tertiary);
+    --scrollbar-thumb: var(--gray-400);
+    --scrollbar-thumb-hover: var(--gray-500);
+    
+    /* Code / Mono */
+    --code-bg: var(--bg-tertiary);
+    --code-text: var(--text-primary);
+    
+    /* Selection */
+    --selection-bg: rgba(99, 102, 241, 0.2);
+    --selection-text: inherit;
+    
+    /* Focus Ring */
+    --focus-ring: 0 0 0 3px rgba(99, 102, 241, 0.3);
+    
+    /* Gradient */
+    --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    --gradient-text: linear-gradient(135deg, var(--primary) 0%, #8b5cf6 50%, #ec4899 100%);
+}
+```
+
+---
+
+## 🌑 4. Dark Theme (css/themes/dark.css)
+
+```css
+/**
+ * Dark Theme
+ * Dark mode colors
+ * @author Oathan Rex
+ */
+
+[data-theme="dark"] {
+    /* ==================== BACKGROUND COLORS ==================== */
+    
+    --bg-body: #0f172a;
+    --bg-primary: #1e293b;
+    --bg-secondary: #0f172a;
+    --bg-tertiary: #334155;
+    --bg-elevated: #1e293b;
+    --bg-overlay: rgba(0, 0, 0, 0.7);
+    
+    /* ==================== TEXT COLORS ==================== */
+    
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-tertiary: #94a3b8;
+    --text-muted: #64748b;
+    --text-inverse: #0f172a;
+    --text-link: var(--primary-light);
+    --text-link-hover: var(--primary);
+    
+    /* ==================== BORDER COLORS ==================== */
+    
+    --border-color: #334155;
+    --border-color-light: #1e293b;
+    --border-color-dark: #475569;
+    --border-focus: var(--primary-light);
+    
+    /* ==================== COMPONENT SPECIFIC ==================== */
+    
+    /* Header */
+    --header-bg: rgba(15, 23, 42, 0.95);
+    --header-border: var(--border-color);
+    --header-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    
+    /* Cards */
+    --card-bg: var(--bg-primary);
+    --card-border: var(--border-color);
+    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    --card-shadow-hover: 0 10px 30px rgba(0, 0, 0, 0.3);
+    
+    /* Inputs */
+    --input-bg: var(--bg-tertiary);
+    --input-bg-focus: var(--bg-tertiary);
+    --input-border: var(--border-color);
+    --input-border-focus: var(--primary-light);
+    --input-text: var(--text-primary);
+    --input-placeholder: var(--text-muted);
+    
+    /* Buttons */
+    --btn-secondary-bg: var(--bg-tertiary);
+    --btn-secondary-text: var(--text-primary);
+    --btn-secondary-border: var(--border-color);
+    --btn-secondary-hover-bg: #475569;
+    
+    /* Upload Area */
+    --upload-bg: var(--bg-primary);
+    --upload-border: var(--border-color);
+    --upload-border-hover: var(--primary-light);
+    --upload-bg-hover: rgba(99, 102, 241, 0.05);
+    --upload-bg-dragover: rgba(99, 102, 241, 0.1);
+    
+    /* Preview Items */
+    --preview-item-bg: var(--bg-primary);
+    --preview-item-border: var(--border-color);
+    --preview-placeholder-bg: var(--bg-tertiary);
+    
+    /* Progress Bar */
+    --progress-bg: var(--bg-tertiary);
+    --progress-fill: linear-gradient(90deg, var(--primary-light), var(--primary));
+    
+    /* Slider */
+    --slider-track-bg: var(--bg-tertiary);
+    --slider-thumb-bg: var(--primary-light);
+    --slider-thumb-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    
+    /* Toast */
+    --toast-bg: var(--bg-primary);
+    --toast-border: var(--border-color);
+    --toast-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    
+    /* Footer */
+    --footer-bg: var(--bg-primary);
+    --footer-border: var(--border-color);
+    --footer-text: var(--text-tertiary);
+    
+    /* Scrollbar */
+    --scrollbar-track: var(--bg-tertiary);
+    --scrollbar-thumb: var(--gray-600);
+    --scrollbar-thumb-hover: var(--gray-500);
+    
+    /* Code / Mono */
+    --code-bg: var(--bg-tertiary);
+    --code-text: var(--text-primary);
+    
+    /* Selection */
+    --selection-bg: rgba(129, 140, 248, 0.3);
+    --selection-text: inherit;
+    
+    /* Focus Ring */
+    --focus-ring: 0 0 0 3px rgba(129, 140, 248, 0.4);
+    
+    /* Shadows - Adjusted for dark mode */
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+}
+
+/* ==================== DARK MODE SPECIFIC ADJUSTMENTS ==================== */
+
+[data-theme="dark"] {
+    color-scheme: dark;
+}
+
+/* Improve image visibility in dark mode */
+[data-theme="dark"] .preview-image-container img,
+[data-theme="dark"] .download-image-container img {
+    background: var(--bg-tertiary);
+}
+
+/* Format badges with inverted colors */
+[data-theme="dark"] .format-info-icon {
+    filter: brightness(1.1);
+}
+
+/* Adjust gradient text for dark mode */
+[data-theme="dark"] .gradient-text {
+    background: linear-gradient(135deg, var(--primary-light) 0%, #a78bfa 50%, #f472b6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+---
+
+## 🎨 5. Base Styles (css/style.css)
+
+```css
+/**
+ * Base Styles
+ * Global styles, reset, and utilities
+ * @author Oathan Rex
+ */
+
+/* ==================== CSS RESET ==================== */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--text-base);
+    font-weight: var(--font-normal);
+    line-height: var(--leading-normal);
+    color: var(--text-primary);
+    background-color: var(--bg-body);
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default link styles */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Remove default button styles */
+button {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Remove default input styles */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+/* Images */
+img, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ==================== SELECTION ==================== */
+
+::selection {
+    background: var(--selection-bg);
+    color: var(--selection-text);
+}
+
+::-moz-selection {
+    background: var(--selection-bg);
+    color: var(--selection-text);
+}
+
+/* ==================== FOCUS STYLES ==================== */
+
+:focus {
+    outline: none;
+}
+
+:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+/* ==================== SCROLLBAR ==================== */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* ==================== CONTAINER ==================== */
+
+.container {
+    width: 100%;
+    max-width: var(--container-xl);
+    margin: 0 auto;
+    padding: 0 var(--spacing-5);
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 var(--spacing-8);
+    }
+}
+
+/* ==================== ACCESSIBILITY ==================== */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: var(--spacing-3) var(--spacing-6);
+    background: var(--primary);
+    color: white;
+    border-radius: var(--radius-md);
+    z-index: var(--z-tooltip);
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: var(--spacing-4);
+}
+
+/* ==================== HEADER ==================== */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-sticky);
+    background: var(--header-bg);
+    border-bottom: 1px solid var(--header-border);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+}
+
+@media (max-width: 767px) {
+    .header .container {
+        height: var(--header-height-mobile);
+    }
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    transition: var(--transition-transform);
+}
+
+.logo:hover {
+    transform: translateY(-1px);
+}
+
+.logo-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-lg);
+    color: white;
+    font-size: var(--text-xl);
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-title {
+    font-size: var(--text-lg);
+    font-weight: var(--font-bold);
+    color: var(--text-primary);
+    line-height: var(--leading-tight);
+}
+
+.logo-subtitle {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    font-weight: var(--font-medium);
+}
+
+@media (max-width: 480px) {
+    .logo-text {
+        display: none;
+    }
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-4);
+    color: var(--text-secondary);
+    font-weight: var(--font-medium);
+    border-radius: var(--radius-md);
+    transition: var(--transition-colors);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+    background: var(--bg-tertiary);
+}
+
+@media (max-width: 480px) {
+    .nav-link span {
+        display: none;
+    }
+    
+    .nav-link {
+        padding: var(--spacing-2);
+    }
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-full);
+    color: var(--text-primary);
+    font-size: var(--text-lg);
+    transition: var(--transition-all);
+}
+
+.theme-toggle:hover {
+    background: var(--primary);
+    color: white;
+    transform: rotate(15deg);
+}
+
+/* ==================== MAIN CONTENT ==================== */
+
+.main {
+    padding: var(--spacing-10) 0;
+    min-height: calc(100vh - var(--header-height) - 200px);
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding: var(--spacing-6) 0;
+    }
+}
+
+/* ==================== HERO SECTION ==================== */
+
+.hero {
+    text-align: center;
+    margin-bottom: var(--spacing-12);
+}
+
+.hero-title {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-extrabold);
+    line-height: var(--leading-tight);
+    margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: var(--text-5xl);
+    }
+}
+
+.gradient-text {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-description {
+    font-size: var(--text-lg);
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto var(--spacing-6);
+}
+
+.hero-badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-3);
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-4);
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--text-secondary);
+}
+
+.badge i {
+    color: var(--primary);
+}
+
+/* ==================== SECTION STYLES ==================== */
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    font-size: var(--text-xl);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-6);
+}
+
+.section-title i {
+    color: var(--primary);
+}
+
+.section-title.center {
+    justify-content: center;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-6);
+}
+
+.section-actions {
+    display: flex;
+    gap: var(--spacing-3);
+}
+
+@media (max-width: 640px) {
+    .section-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .section-actions {
+        width: 100%;
+    }
+    
+    .section-actions .btn {
+        flex: 1;
+    }
+}
+
+/* ==================== BUTTONS ==================== */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-2);
+    padding: var(--btn-padding-y) var(--btn-padding-x);
+    font-size: var(--btn-font-size);
+    font-weight: var(--btn-font-weight);
+    border-radius: var(--btn-radius);
+    transition: var(--transition-all);
+    white-space: nowrap;
+    user-select: none;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    box-shadow: var(--shadow-primary);
+}
+
+.btn-primary:hover:not(:disabled) {
+    background: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.35);
+}
+
+.btn-primary:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.btn-secondary {
+    background: var(--btn-secondary-bg);
+    color: var(--btn-secondary-text);
+    border: 1px solid var(--btn-secondary-border);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background: var(--btn-secondary-hover-bg);
+}
+
+.btn-success {
+    background: var(--success);
+    color: white;
+    box-shadow: var(--shadow-success);
+}
+
+.btn-success:hover:not(:disabled) {
+    background: var(--success-600);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
+}
+
+.btn-danger {
+    background: var(--danger);
+    color: white;
+}
+
+.btn-danger:hover:not(:disabled) {
+    background: var(--danger-600);
+}
+
+.btn-large {
+    padding: var(--spacing-4) var(--spacing-8);
+    font-size: var(--text-base);
+}
+
+.btn-convert {
+    min-width: 160px;
+}
+
+/* ==================== FEATURES SECTION ==================== */
+
+.features-section {
+    margin-top: var(--spacing-20);
+    padding-top: var(--spacing-12);
+    border-top: 1px solid var(--border-color);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-6);
+    margin-top: var(--spacing-8);
+}
+
+.feature-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--spacing-8);
+    text-align: center;
+    transition: var(--transition-all);
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--card-shadow-hover);
+}
+
+.feature-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--spacing-5);
+    background: var(--primary-50);
+    border-radius: var(--radius-xl);
+    font-size: var(--text-2xl);
+    color: var(--primary);
+}
+
+[data-theme="dark"] .feature-icon {
+    background: rgba(99, 102, 241, 0.15);
+}
+
+.feature-title {
+    font-size: var(--text-lg);
+    font-weight: var(--font-semibold);
+    margin-bottom: var(--spacing-3);
+}
+
+.feature-desc {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+}
+
+/* ==================== FORMATS SECTION ==================== */
+
+.formats-section {
+    margin-top: var(--spacing-16);
+}
+
+.formats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-5);
+    margin-top: var(--spacing-8);
+}
+
+.format-info-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-5);
+    text-align: center;
+    transition: var(--transition-all);
+}
+
+.format-info-card:hover {
+    border-color: var(--primary);
+}
+
+.format-info-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    margin-bottom: var(--spacing-3);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-sm);
+    font-weight: var(--font-bold);
+    color: white;
+}
+
+.format-info-icon.png { background: linear-gradient(135deg, #10b981, #059669); }
+.format-info-icon.jpg { background: linear-gradient(135deg, #f59e0b, #d97706); }
+.format-info-icon.webp { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+.format-info-icon.bmp { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
+.format-info-icon.ico { background: linear-gradient(135deg, #ec4899, #db2777); }
+
+.format-info-card h4 {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    margin-bottom: var(--spacing-2);
+}
+
+.format-info-card p {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    line-height: var(--leading-relaxed);
+}
+
+/* ==================== FOOTER ==================== */
+
+.footer {
+    background: var(--footer-bg);
+    border-top: 1px solid var(--footer-border);
+    padding: var(--spacing-12) 0 var(--spacing-8);
+    margin-top: var(--spacing-16);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-8);
+    margin-bottom: var(--spacing-8);
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
+
+.footer-brand {
+    max-width: 300px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.footer-logo i {
+    color: var(--primary);
+}
+
+.footer-tagline {
+    color: var(--footer-text);
+    font-size: var(--text-sm);
+}
+
+.footer-links {
+    display: flex;
+    gap: var(--spacing-12);
+}
+
+.footer-column h4 {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-4);
+}
+
+.footer-column ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+}
+
+.footer-column a {
+    color: var(--footer-text);
+    font-size: var(--text-sm);
+    transition: var(--transition-colors);
+}
+
+.footer-column a:hover {
+    color: var(--primary);
+}
+
+.footer-bottom {
+    padding-top: var(--spacing-6);
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.copyright {
+    color: var(--footer-text);
+    font-size: var(--text-sm);
+    margin-bottom: var(--spacing-2);
+}
+
+.copyright a {
+    color: var(--primary);
+    font-weight: var(--font-semibold);
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.version {
+    color: var(--text-muted);
+    font-size: var(--text-xs);
+}
+
+/* ==================== UTILITY CLASSES ==================== */
+
+.hidden {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: var(--text-muted);
+}
+
+.mb-0 { margin-bottom: 0; }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+
+.mt-0 { margin-top: 0; }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-6 { margin-top: var(--spacing-6); }
+
+.p-4 { padding: var(--spacing-4); }
+.p-6 { padding: var(--spacing-6); }
+
+.gap-2 { gap: var(--spacing-2); }
+.gap-4 { gap: var(--spacing-4); }
+
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+
+/* ==================== ANIMATIONS ==================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.animate-scaleIn {
+    animation: scaleIn 0.3s ease forwards;
+}
+
+.animate-pulse {
+    animation: pulse 2s infinite;
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+.animate-bounce {
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Loading skeleton */
+.skeleton {
+    background: linear-gradient(
+        90deg,
+        var(--bg-tertiary) 25%,
+        var(--bg-secondary) 50%,
+        var(--bg-tertiary) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--radius-md);
+}
+
+/* ==================== SPINNER ==================== */
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border-color);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+.spinner-sm {
+    width: 16px;
+    height: 16px;
+    border-width: 2px;
+}
+
+.spinner-lg {
+    width: 32px;
+    height: 32px;
+    border-width: 3px;
+}
+
+/* ==================== RESPONSIVE UTILITIES ==================== */
+
+@media (max-width: 639px) {
+    .sm\:hidden { display: none; }
+}
+
+@media (min-width: 640px) {
+    .sm\:block { display: block; }
+    .sm\:flex { display: flex; }
+}
+
+@media (max-width: 767px) {
+    .md\:hidden { display: none; }
+}
+
+@media (min-width: 768px) {
+    .md\:block { display: block; }
+    .md\:flex { display: flex; }
+}
+
+@media (max-width: 1023px) {
+    .lg\:hidden { display: none; }
+}
+
+@media (min-width: 1024px) {
+    .lg\:block { display: block; }
+    .lg\:flex { display: flex; }
+}
+
+/* ==================== PRINT STYLES ==================== */
+
+@media print {
+    .header,
+    .footer,
+    .upload-section,
+    .settings-panel,
+    .section-actions,
+    .theme-toggle,
+    .nav {
+        display: none !important;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .preview-grid,
+    .download-grid {
+        display: block;
+    }
+    
+    .preview-item,
+    .download-item {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+```
+
+---
+
+## 📤 6. Upload Component Styles (css/components/upload.css)
+
+```css
+/**
+ * Upload Area Component Styles
+ * Drag & drop and file selection UI
+ * @author Oathan Rex
+ */
+
+/* ==================== UPLOAD SECTION ==================== */
+
+.upload-section {
+    margin-bottom: var(--spacing-10);
+}
+
+/* ==================== UPLOAD AREA ==================== */
+
+.upload-area {
+    position: relative;
+    background: var(--upload-bg);
+    border: 2px dashed var(--upload-border);
+    border-radius: var(--radius-2xl);
+    padding: var(--spacing-16) var(--spacing-8);
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition-all);
+    overflow: hidden;
+}
+
+.upload-area::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.upload-area:hover {
+    border-color: var(--upload-border-hover);
+    background: var(--upload-bg-hover);
+}
+
+.upload-area:hover::before {
+    opacity: 0.02;
+}
+
+.upload-area:focus-visible {
+    border-color: var(--primary);
+    box-shadow: var(--focus-ring);
+}
+
+/* Drag Over State */
+.upload-area.dragover {
+    border-color: var(--primary);
+    background: var(--upload-bg-dragover);
+    transform: scale(1.01);
+}
+
+.upload-area.dragover::before {
+    opacity: 0.05;
+}
+
+.upload-area.dragover .upload-icon-wrapper {
+    transform: scale(1.1);
+}
+
+/* Disabled State */
+.upload-area.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* ==================== UPLOAD CONTENT ==================== */
+
+.upload-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Upload Icon */
+.upload-icon-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: var(--spacing-6);
+    transition: transform 0.3s ease;
+}
+
+.upload-icon {
+    font-size: 4rem;
+    color: var(--primary);
+    animation: float 3s ease-in-out infinite;
+}
+
+.upload-icon-pulse {
+    position: absolute;
+    inset: -20px;
+    background: var(--primary);
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulse-ring 2s ease-out infinite;
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+/* Upload Text */
+.upload-title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-2);
+}
+
+.upload-subtitle {
+    font-size: var(--text-base);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-4);
+}
+
+.upload-browse {
+    color: var(--primary);
+    font-weight: var(--font-medium);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.upload-formats {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-4);
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+}
+
+.upload-formats i {
+    color: var(--primary);
+}
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 640px) {
+    .upload-area {
+        padding: var(--spacing-10) var(--spacing-5);
+    }
+    
+    .upload-icon {
+        font-size: 3rem;
+    }
+    
+    .upload-title {
+        font-size: var(--text-xl);
+    }
+    
+    .upload-subtitle {
+        font-size: var(--text-sm);
+    }
+}
+
+/* ==================== PROCESSING STATE ==================== */
+
+.upload-area.processing {
+    pointer-events: none;
+}
+
+.upload-area.processing .upload-content {
+    opacity: 0.5;
+}
+
+.upload-area.processing::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    border: 3px solid var(--border-color);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+```
+
+---
+
+## 👁️ 7. Preview Component Styles (css/components/preview.css)
+
+```css
+/**
+ * Preview Grid Component Styles
+ * Image thumbnail previews
+ * @author Oathan Rex
+ */
+
+/* ==================== PREVIEW SECTION ==================== */
+
+.preview-section {
+    display: none;
+    margin-bottom: var(--spacing-10);
+    animation: fadeIn 0.4s ease;
+}
+
+.preview-section.active {
+    display: block;
+}
+
+/* Image Count Badge */
+.image-count {
+    font-size: var(--text-base);
+    font-weight: var(--font-normal);
+    color: var(--text-muted);
+}
+
+/* ==================== PREVIEW GRID ==================== */
+
+.preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: var(--spacing-5);
+}
+
+@media (min-width: 640px) {
+    .preview-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .preview-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
+
+/* ==================== PREVIEW EMPTY STATE ==================== */
+
+.preview-empty {
+    grid-column: 1 / -1;
+    padding: var(--spacing-16) var(--spacing-8);
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.preview-empty i {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-4);
+    opacity: 0.3;
+}
+
+.preview-empty p {
+    font-size: var(--text-lg);
+}
+
+/* ==================== PREVIEW ITEM ==================== */
+
+.preview-item {
+    position: relative;
+    background: var(--preview-item-bg);
+    border: 1px solid var(--preview-item-border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    transition: var(--transition-all);
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.preview-item.show {
+    opacity: 1;
+    transform: translateY(0);
+    animation: scaleIn 0.3s ease;
+}
+
+.preview-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+.preview-item.removing {
+    animation: fadeOut 0.3s ease forwards;
+}
+
+/* Status Classes */
+.preview-item.pending {}
+
+.preview-item.processing {
+    pointer-events: none;
+}
+
+.preview-item.processing .preview-image-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(99, 102, 241, 0.2);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.preview-item.completed .preview-image-container {
+    border-bottom-color: var(--success);
+}
+
+.preview-item.error {
+    border-color: var(--danger);
+}
+
+.preview-item.error .preview-image-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+/* ==================== IMAGE CONTAINER ==================== */
+
+.preview-image-container {
+    position: relative;
+    height: 150px;
+    background: var(--preview-placeholder-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.preview-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.preview-item:hover .preview-image-container img {
+    transform: scale(1.05);
+}
+
+/* Checkerboard Pattern for Transparency */
+.preview-image-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+        linear-gradient(45deg, #e2e8f0 25%, transparent 25%),
+        linear-gradient(-45deg, #e2e8f0 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #e2e8f0 75%),
+        linear-gradient(-45deg, transparent 75%, #e2e8f0 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+[data-theme="dark"] .preview-image-container::before {
+    background-image: 
+        linear-gradient(45deg, #334155 25%, transparent 25%),
+        linear-gradient(-45deg, #334155 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #334155 75%),
+        linear-gradient(-45deg, transparent 75%, #334155 75%);
+}
+
+.preview-image-container img {
+    position: relative;
+    z-index: 1;
+}
+
+/* ==================== STATUS OVERLAY ==================== */
+
+.preview-status {
+    position: absolute;
+    top: var(--spacing-2);
+    left: var(--spacing-2);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-primary);
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-md);
+    z-index: 2;
+}
+
+.preview-status .spinner {
+    width: 16px;
+    height: 16px;
+}
+
+/* ==================== REMOVE BUTTON ==================== */
+
+.remove-btn {
+    position: absolute;
+    top: var(--spacing-2);
+    right: var(--spacing-2);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--danger);
+    border-radius: var(--radius-full);
+    color: white;
+    font-size: var(--text-xs);
+    opacity: 0;
+    transform: scale(0.8);
+    transition: var(--transition-all);
+    z-index: 3;
+}
+
+.preview-item:hover .remove-btn {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.remove-btn:hover {
+    background: var(--danger-700);
+    transform: scale(1.1);
+}
+
+.remove-btn:focus-visible {
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: var(--focus-ring);
+}
+
+/* ==================== PREVIEW INFO ==================== */
+
+.preview-info {
+    padding: var(--spacing-3) var(--spacing-4);
+}
+
+.preview-info h5 {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.preview-info p {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+}
+
+/* ==================== ERROR MESSAGE ==================== */
+
+.preview-item.error .preview-info::after {
+    content: attr(data-error);
+    display: block;
+    margin-top: var(--spacing-2);
+    padding: var(--spacing-2);
+    background: var(--danger-50);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+    color: var(--danger);
+}
+
+[data-theme="dark"] .preview-item.error .preview-info::after {
+    background: rgba(239, 68, 68, 0.15);
+}
+```
+
+---
+
+## ⚙️ 8. Settings Component Styles (css/components/settings.css)
+
+```css
+/**
+ * Settings Panel Component Styles
+ * Conversion options and controls
+ * @author Oathan Rex
+ */
+
+/* ==================== SETTINGS PANEL ==================== */
+
+.settings-panel {
+    display: none;
+    margin-bottom: var(--spacing-10);
+    animation: fadeIn 0.4s ease;
+}
+
+.settings-panel.active {
+    display: block;
+}
+
+/* ==================== SETTINGS GRID ==================== */
+
+.settings-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-5);
+}
+
+@media (min-width: 768px) {
+    .settings-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .settings-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* ==================== SETTING CARD ==================== */
+
+.setting-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--spacing-6);
+    transition: var(--transition-all);
+}
+
+.setting-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.setting-card-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    font-size: var(--text-base);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-5);
+}
+
+.setting-card-title i {
+    color: var(--primary);
+    font-size: var(--text-lg);
+}
+
+/* ==================== FORMAT BUTTONS ==================== */
+
+.format-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-2);
+}
+
+.format-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-3) var(--spacing-4);
+    min-width: 70px;
+    background: var(--bg-secondary);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    transition: var(--transition-all);
+}
+
+.format-btn:hover {
+    border-color: var(--primary);
+    background: var(--bg-tertiary);
+}
+
+.format-btn:focus-visible {
+    box-shadow: var(--focus-ring);
+}
+
+.format-btn.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+    box-shadow: var(--shadow-primary);
+}
+
+.format-btn .format-icon {
+    font-size: var(--text-sm);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--spacing-1);
+}
+
+.format-btn .format-desc {
+    font-size: var(--text-xs);
+    opacity: 0.8;
+}
+
+.format-btn.active .format-desc {
+    opacity: 1;
+}
+
+/* ==================== QUALITY SLIDER ==================== */
+
+.quality-badge {
+    margin-left: auto;
+    padding: var(--spacing-1) var(--spacing-3);
+    background: var(--primary);
+    color: white;
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+}
+
+.slider-container {
+    margin-bottom: var(--spacing-4);
+}
+
+.quality-slider {
+    width: 100%;
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--slider-track-bg);
+    border-radius: var(--radius-full);
+    outline: none;
+    cursor: pointer;
+}
+
+.quality-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    background: var(--slider-thumb-bg);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: var(--slider-thumb-shadow);
+    transition: var(--transition-transform);
+}
+
+.quality-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+.quality-slider::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: var(--slider-thumb-bg);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: var(--slider-thumb-shadow);
+}
+
+.quality-slider:focus-visible::-webkit-slider-thumb {
+    box-shadow: var(--focus-ring);
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--spacing-2);
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+}
+
+.setting-hint {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-2);
+    padding: var(--spacing-3);
+    background: var(--info-50);
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    color: var(--info);
+    line-height: var(--leading-relaxed);
+}
+
+[data-theme="dark"] .setting-hint {
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.setting-hint i {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* ==================== RESIZE OPTIONS ==================== */
+
+.resize-options {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4);
+}
+
+.resize-inputs {
+    display: flex;
+    align-items: flex-end;
+    gap: var(--spacing-3);
+}
+
+.input-group {
+    flex: 1;
+}
+
+.input-label {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-2);
+}
+
+.dimension-input {
+    width: 100%;
+    padding: var(--input-padding-y) var(--input-padding-x);
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
+    border-radius: var(--input-radius);
+    color: var(--input-text);
+    font-size: var(--text-base);
+    transition: var(--transition-all);
+}
+
+.dimension-input::placeholder {
+    color: var(--input-placeholder);
+}
+
+.dimension-input:hover {
+    border-color: var(--border-color-dark);
+}
+
+.dimension-input:focus {
+    background: var(--input-bg-focus);
+    border-color: var(--input-border-focus);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+/* Remove spinner buttons */
+.dimension-input::-webkit-outer-spin-button,
+.dimension-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.dimension-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Link Button */
+.link-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--text-muted);
+    transition: var(--transition-all);
+    flex-shrink: 0;
+}
+
+.link-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.link-btn.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.link-btn:focus-visible {
+    box-shadow: var(--focus-ring);
+}
+
+/* ==================== PRESET SIZES ==================== */
+
+.preset-sizes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+.preset-label {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    margin-right: var(--spacing-2);
+}
+
+.preset-btn {
+    padding: var(--spacing-2) var(--spacing-3);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: var(--font-medium);
+    color: var(--text-secondary);
+    transition: var(--transition-all);
+}
+
+.preset-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: var(--bg-tertiary);
+}
+
+.preset-btn:focus-visible {
+    box-shadow: var(--focus-ring);
+}
+
+/* ==================== OPTIONS LIST ==================== */
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4);
+}
+
+/* Checkbox Label */
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-3);
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.checkmark {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    background: var(--bg-secondary);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-all);
+    margin-top: 2px;
+}
+
+.checkbox-label:hover .checkmark {
+    border-color: var(--primary);
+}
+
+.checkbox-label input:checked + .checkmark {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.checkbox-label input:checked + .checkmark::after {
+    content: '✓';
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.checkbox-label input:focus-visible + .checkmark {
+    box-shadow: var(--focus-ring);
+}
+
+.checkbox-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+.checkbox-title {
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--text-primary);
+}
+
+.checkbox-desc {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+}
+
+/* Background Color Option */
+.bg-color-option {
+    padding-top: var(--spacing-4);
+    border-top: 1px solid var(--border-color);
+}
+
+.color-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+}
+
+.color-input {
+    width: 50px;
+    height: 40px;
+    padding: 0;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.color-input::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.color-input::-webkit-color-swatch {
+    border: none;
+    border-radius: var(--radius-sm);
+}
+
+.color-value {
+    font-size: var(--text-sm);
+    font-family: var(--font-family-mono);
+    color: var(--text-secondary);
+}
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 640px) {
+    .resize-inputs {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .link-btn {
+        align-self: center;
+        transform: rotate(90deg);
+    }
+    
+    .format-buttons {
+        justify-content: center;
+    }
+}
+```
+
+---
+
+## 📊 9. Progress Component Styles (css/components/progress.css)
+
+```css
+/**
+ * Progress Section Component Styles
+ * Conversion progress indicator
+ * @author Oathan Rex
+ */
+
+/* ==================== PROGRESS SECTION ==================== */
+
+.progress-section {
+    display: none;
+    margin-bottom: var(--spacing-10);
+}
+
+.progress-section.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+/* ==================== PROGRESS CONTAINER ==================== */
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-6);
+    padding: var(--spacing-8);
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+}
+
+@media (max-width: 640px) {
+    .progress-container {
+        flex-direction: column;
+        text-align: center;
+        padding: var(--spacing-6);
+    }
+}
+
+/* ==================== PROGRESS ICON ==================== */
+
+.progress-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-50);
+    border-radius: var(--radius-xl);
+    flex-shrink: 0;
+}
+
+[data-theme="dark"] .progress-icon {
+    background: rgba(99, 102, 241, 0.15);
+}
+
+.progress-icon i {
+    font-size: 1.75rem;
+    color: var(--primary);
+}
+
+/* ==================== PROGRESS INFO ==================== */
+
+.progress-info {
+    flex: 1;
+    min-width: 0;
+}
+
+/* ==================== PROGRESS BAR ==================== */
+
+.progress-bar {
+    height: 12px;
+    background: var(--progress-bg);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    margin-bottom: var(--spacing-3);
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--progress-fill);
+    border-radius: var(--radius-full);
+    transition: width 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animated shine effect */
+.progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    animation: shimmer 1.5s infinite;
+}
+
+/* ==================== PROGRESS TEXT ==================== */
+
+.progress-text {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+@media (max-width: 640px) {
+    .progress-text {
+        justify-content: center;
+    }
+}
+
+/* ==================== CANCEL BUTTON ==================== */
+
+.btn-cancel {
+    flex-shrink: 0;
+}
+
+/* ==================== STATES ==================== */
+
+/* Completed State */
+.progress-section.completed .progress-icon {
+    background: var(--success-50);
+}
+
+[data-theme="dark"] .progress-section.completed .progress-icon {
+    background: rgba(16, 185, 129, 0.15);
+}
+
+.progress-section.completed .progress-icon i {
+    color: var(--success);
+    animation: none;
+}
+
+.progress-section.completed .progress-icon i::before {
+    content: '\f00c'; /* Font Awesome check */
+}
+
+.progress-section.completed .progress-fill {
+    background: linear-gradient(90deg, var(--success), var(--success-600));
+}
+
+/* Error State */
+.progress-section.error .progress-icon {
+    background: var(--danger-50);
+}
+
+[data-theme="dark"] .progress-section.error .progress-icon {
+    background: rgba(239, 68, 68, 0.15);
+}
+
+.progress-section.error .progress-icon i {
+    color: var(--danger);
+    animation: none;
+}
+
+.progress-section.error .progress-fill {
+    background: var(--danger);
+}
+
+/* ==================== INDETERMINATE PROGRESS ==================== */
+
+.progress-bar.indeterminate .progress-fill {
+    width: 30%;
+    animation: indeterminate 1.5s infinite ease-in-out;
+}
+
+@keyframes indeterminate {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(400%);
+    }
+}
+```
+
+---
+
+## 📥 10. Download Component Styles (css/components/download.css)
+
+```css
+/**
+ * Download Section Component Styles
+ * Converted images download area
+ * @author Oathan Rex
+ */
+
+/* ==================== DOWNLOAD SECTION ==================== */
+
+.download-section {
+    display: none;
+    margin-bottom: var(--spacing-10);
+}
+
+.download-section.active {
+    display: block;
+    animation: fadeIn 0.4s ease;
+}
+
+/* Download Stats */
+.download-stats {
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+    color: var(--success);
+    margin-left: var(--spacing-2);
+}
+
+/* ==================== DOWNLOAD GRID ==================== */
+
+.download-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--spacing-5);
+}
+
+@media (min-width: 640px) {
+    .download-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+}
+
+/* ==================== DOWNLOAD ITEM ==================== */
+
+.download-item {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    transition: var(--transition-all);
+    animation: scaleIn 0.3s ease;
+}
+
+.download-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* ==================== DOWNLOAD IMAGE CONTAINER ==================== */
+
+.download-image-container {
+    position: relative;
+    height: 140px;
+    background: var(--preview-placeholder-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Checkerboard for transparency */
+.download-image-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+        linear-gradient(45deg, #e2e8f0 25%, transparent 25%),
+        linear-gradient(-45deg, #e2e8f0 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #e2e8f0 75%),
+        linear-gradient(-45deg, transparent 75%, #e2e8f0 75%);
+    background-size: 12px 12px;
+    background-position: 0 0, 0 6px, 6px -6px, -6px 0px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+[data-theme="dark"] .download-image-container::before {
+    background-image: 
+        linear-gradient(45deg, #334155 25%, transparent 25%),
+        linear-gradient(-45deg, #334155 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #334155 75%),
+        linear-gradient(-45deg, transparent 75%, #334155 75%);
+}
+
+.download-image-container img {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Format Badge */
+.download-format-badge {
+    position: absolute;
+    top: var(--spacing-2);
+    left: var(--spacing-2);
+    padding: var(--spacing-1) var(--spacing-2);
+    background: var(--bg-primary);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    color: var(--primary);
+    box-shadow: var(--shadow-sm);
+    z-index: 2;
+}
+
+/* ==================== DOWNLOAD INFO ==================== */
+
+.download-info {
+    padding: var(--spacing-4);
+}
+
+.download-info h5 {
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Size Info */
+.size-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-3);
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+}
+
+.size-saved {
+    color: var(--success) !important;
+    font-weight: var(--font-semibold);
+}
+
+.size-increased {
+    color: var(--warning) !important;
+    font-weight: var(--font-semibold);
+}
+
+/* Dimension Info */
+.dimension-info {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-3);
+}
+
+/* Download Button */
+.download-info .btn {
+    width: 100%;
+}
+
+.download-single-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-3);
+    background: var(--primary);
+    color: white;
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+    transition: var(--transition-all);
+}
+
+.download-single-btn:hover {
+    background: var(--primary-dark);
+}
+
+/* ==================== COMPARISON VIEW ==================== */
+
+.download-item.comparison {
+    position: relative;
+}
+
+.comparison-toggle {
+    position: absolute;
+    top: var(--spacing-2);
+    right: var(--spacing-2);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-primary);
+    border-radius: var(--radius-full);
+    color: var(--text-secondary);
+    font-size: var(--text-xs);
+    box-shadow: var(--shadow-sm);
+    z-index: 2;
+    transition: var(--transition-all);
+}
+
+.comparison-toggle:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* ==================== EMPTY STATE ==================== */
+
+.download-empty {
+    grid-column: 1 / -1;
+    padding: var(--spacing-12);
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.download-empty i {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-4);
+    opacity: 0.3;
+}
+
+/* ==================== SUMMARY CARD ==================== */
+
+.download-summary {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-5);
+    background: var(--success-50);
+    border: 1px solid var(--success-100);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-4);
+}
+
+[data-theme="dark"] .download-summary {
+    background: rgba(16, 185, 129, 0.1);
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.summary-stats {
+    display: flex;
+    gap: var(--spacing-8);
+}
+
+.summary-stat {
+    text-align: center;
+}
+
+.summary-stat-value {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--success);
+}
+
+.summary-stat-label {
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+    .download-summary {
+        flex-direction: column;
+        gap: var(--spacing-4);
+        text-align: center;
+    }
+    
+    .summary-stats {
+        justify-content: center;
+    }
+}
+```
+
+---
+
+## 🔔 11. Toast Styles (css/components/toast.css) - Complete Version
+
+```css
+/**
+ * Toast Notification Component Styles
+ * Non-blocking user feedback
+ * @author Oathan Rex
+ */
+
+/* ==================== TOAST CONTAINER ==================== */
+
+.toast-container {
+    position: fixed;
+    bottom: var(--spacing-6);
+    right: var(--spacing-6);
+    z-index: var(--z-toast);
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--spacing-3);
+    max-width: 420px;
+    pointer-events: none;
+}
+
+@media (max-width: 480px) {
+    .toast-container {
+        left: var(--spacing-4);
+        right: var(--spacing-4);
+        bottom: var(--spacing-4);
+        max-width: none;
+    }
+}
+
+/* ==================== TOAST BASE ==================== */
+
+.toast {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    padding: var(--spacing-4) var(--spacing-5);
+    background: var(--toast-bg);
+    border: 1px solid var(--toast-border);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--toast-shadow);
+    pointer-events: auto;
+    transform: translateX(calc(100% + var(--spacing-6)));
+    opacity: 0;
+    transition: transform 0.4s var(--ease-out), opacity 0.4s ease;
+}
+
+.toast.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.toast.hide {
+    animation: toastSlideOut 0.3s var(--ease-in) forwards;
+}
+
+@keyframes toastSlideOut {
+    to {
+        transform: translateX(calc(100% + var(--spacing-6)));
+        opacity: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast {
+        transform: translateY(calc(100% + var(--spacing-4)));
+    }
+    
+    .toast.show {
+        transform: translateY(0);
+    }
+    
+    @keyframes toastSlideOut {
+        to {
+            transform: translateY(calc(100% + var(--spacing-4)));
+            opacity: 0;
+        }
+    }
+}
+
+/* ==================== TOAST CONTENT ==================== */
+
+.toast-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    flex: 1;
+    min-width: 0;
+}
+
+.toast-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.toast-message {
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    color: var(--text-primary);
+    line-height: var(--leading-snug);
+}
+
+/* ==================== TOAST TYPES ==================== */
+
+.toast-success .toast-icon {
+    color: var(--success);
+}
+
+.toast-success {
+    border-left: 4px solid var(--success);
+}
+
+.toast-error .toast-icon {
+    color: var(--danger);
+}
+
+.toast-error {
+    border-left: 4px solid var(--danger);
+}
+
+.toast-warning .toast-icon {
+    color: var(--warning);
+}
+
+.toast-warning {
+    border-left: 4px solid var(--warning);
+}
+
+.toast-info .toast-icon {
+    color: var(--info);
+}
+
+.toast-info {
+    border-left: 4px solid var(--info);
+}
+
+/* ==================== TOAST ACTION ==================== */
+
+.toast-action {
+    padding: var(--spacing-2) var(--spacing-3);
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: var(--font-semibold);
+    white-space: nowrap;
+    transition: var(--transition-colors);
+}
+
+.toast-action:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* ==================== TOAST CLOSE ==================== */
+
+.toast-close {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: var(--radius-full);
+    color: var(--text-muted);
+    font-size: var(--text-sm);
+    transition: var(--transition-all);
+    flex-shrink: 0;
+    margin-left: var(--spacing-2);
+}
+
+.toast-close:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+/* ==================== TOAST WITH PROGRESS ==================== */
+
+.toast.with-progress {
+    padding-bottom: var(--spacing-5);
+    position: relative;
+}
+
+.toast-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--bg-tertiary);
+    border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+    overflow: hidden;
+}
+
+.toast-progress-bar {
+    height: 100%;
+    background: var(--primary);
+    animation: toastProgress linear forwards;
+}
+
+@keyframes toastProgress {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
+/* ==================== STACKING ==================== */
+
+.toast:nth-child(n+4) {
+    display: none;
+}
+
+.toast:nth-child(2) {
+    transform: translateX(0) scale(0.95);
+    opacity: 0.7;
+}
+
+.toast:nth-child(3) {
+    transform: translateX(0) scale(0.9);
+    opacity: 0.4;
+}
+```
+
+---
+
+## 📦 12. Package.json
+
+```json
+{
+  "name": "image-converter",
+  "version": "2.0.0",
+  "description": "All-in-One Image Converter - Convert, resize & compress images directly in your browser",
+  "author": "Oathan Rex",
+  "license": "MIT",
+  "homepage": "https://oathanrex.github.io/image-converter/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oathanrex/image-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oathanrex/image-converter/issues"
+  },
+  "keywords": [
+    "image-converter",
+    "image-resize",
+    "image-compress",
+    "png-to-jpg",
+    "webp-converter",
+    "ico-converter",
+    "client-side",
+    "browser-based",
+    "privacy",
+    "no-upload"
+  ],
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "postcss css/style.css -o dist/style.min.css --no-map",
+    "build:js": "esbuild js/app.js --bundle --minify --outfile=dist/app.bundle.js --format=iife",
+    "lint": "eslint js/**/*.js",
+    "lint:fix": "eslint js/**/*.js --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.30",
+    "postcss-cli": "^10.1.0",
+    "cssnano": "^6.0.1",
+    "autoprefixer": "^10.4.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+```
+
+---
+
+## 📝 13. .gitignore
+
+```gitignore
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+*.min.js
+*.min.css
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Editor backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Build artifacts
+*.map
+```
+
+---
+
+## 📖 14. README.md
+
+```markdown
+# 🖼️ All-in-One Image Converter
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green)](https://oathanrex.github.io/image-converter/)
+
+A powerful, privacy-focused image converter that works entirely in your browser. No server uploads, no tracking, 100% client-side processing.
+
+![Screenshot](assets/images/screenshot.png)
+
+## ✨ Features
+
+- 🔒 **100% Private** - All processing happens locally in your browser
+- ⚡ **Lightning Fast** - Uses modern Canvas API and ImageBitmap
+- 🖼️ **Multiple Formats** - PNG, JPG, WEBP, BMP, ICO
+- 📐 **Resize Options** - Custom dimensions with aspect ratio lock
+- 🎚️ **Quality Control** - Adjustable compression (10-100%)
+- 📦 **Batch Processing** - Convert hundreds of images at once
+- 📥 **ZIP Download** - Download all images as a single ZIP file
+- 🌙 **Dark Mode** - Easy on the eyes
+- 📱 **Responsive** - Works on all devices
+- 🌐 **Works Offline** - No internet required after initial load
+
+## 🚀 Live Demo
+
+**[Try it now →](https://oathanrex.github.io/image-converter/)**
+
+## 🛠️ Tech Stack
+
+- HTML5 Canvas API
+- Vanilla JavaScript (ES6+ Modules)
+- CSS3 Custom Properties
+- JSZip for batch downloads
+- No frameworks, no build required
+
+## 📦 Installation
+
+### Option 1: Direct Use
+Simply open `index.html` in your browser - no build step required!
+
+### Option 2: Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/oathanrex/image-converter.git
+cd image-converter
+
+# Install dev dependencies (optional)
+npm install
+
+# Start local server
+npm run dev
+
+# Open http://localhost:3000
+```
+
+### Option 3: Build for Production
+
+```bash
+# Bundle and minify
+npm run build
+
+# Output in dist/ folder
+```
+
+## 🌐 Deploy to GitHub Pages
+
+1. Fork this repository
+2. Go to Settings → Pages
+3. Select Source: `main` branch
+4. Your site is live at `https://yourusername.github.io/image-converter/`
+
+## 📝 Usage
+
+1. **Upload** - Drag & drop images or click to browse
+2. **Configure** - Select output format, quality, and dimensions
+3. **Convert** - Click "Convert All" button
+4. **Download** - Individual downloads or ZIP bundle
+
+## 🎨 Supported Formats
+
+| Format | Input | Output | Notes |
+|--------|-------|--------|-------|
+| PNG | ✅ | ✅ | Lossless, transparency |
+| JPG/JPEG | ✅ | ✅ | Lossy compression |
+| WEBP | ✅ | ✅ | Modern format |
+| BMP | ✅ | ✅ | Uncompressed |
+| GIF | ✅ | ❌ | First frame only |
+| ICO | ❌ | ✅ | Favicon support |
+
+## 🔒 Privacy
+
+Your privacy is our priority:
+
+- ✅ **No uploads** - Images never leave your device
+- ✅ **No servers** - Everything runs in browser
+- ✅ **No cookies** - No tracking
+- ✅ **No analytics** - No data collection
+- ✅ **Open source** - Verify the code yourself
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Oathan Rex**
+
+- GitHub: [@oathanrex](https://github.com/oathanrex)
+- Portfolio: [oathanrex.github.io](https://oathanrex.github.io)
+
+## 🙏 Acknowledgments
+
+- [JSZip](https://stuk.github.io/jszip/) - ZIP file creation
+- [Font Awesome](https://fontawesome.com/) - Icons
+- [Inter Font](https://rsms.me/inter/) - Typography
+
+---
+
+Made with ❤️ by [Oathan Rex](https://oathanrex.github.io)
+```
+
+---
+
+## 📜 15. LICENSE
+
+```
+MIT License
+
+Copyright (c) 2024 Oathan Rex
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 🖼️ 16. Placeholder SVG (assets/images/placeholder.svg)
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#e2e8f0"/>
+      <rect x="10" y="10" width="10" height="10" fill="#e2e8f0"/>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="url(#grid)"/>
+  <g fill="#94a3b8" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <text x="100" y="100">No Preview</text>
+  </g>
+</svg>
+```
+
+---
+
+## 🔧 17. DOM Utilities (js/utils/dom.js)
+
+```javascript
+/**
+ * DOM Utility Functions
+ * Safe DOM manipulation helpers
+ * @author Oathan Rex
+ */
+
+import { escapeHtml } from './sanitize.js';
+
+/**
+ * Safely query DOM element with error handling
+ * @param {string} selector - CSS selector
+ * @param {Element} [parent=document] - Parent element
+ * @returns {Element|null}
+ */
+export function $(selector, parent = document) {
+    try {
+        return parent.querySelector(selector);
+    } catch (e) {
+        console.error(`Invalid selector: ${selector}`);
+        return null;
+    }
+}
+
+/**
+ * Safely query all DOM elements
+ * @param {string} selector - CSS selector
+ * @param {Element} [parent=document] - Parent element
+ * @returns {NodeList}
+ */
+export function $$(selector, parent = document) {
+    try {
+        return parent.querySelectorAll(selector);
+    } catch (e) {
+        console.error(`Invalid selector: ${selector}`);
+        return [];
+    }
+}
+
+/**
+ * Create element with attributes and children (safe)
+ * @param {string} tag - Tag name
+ * @param {Object} [attrs={}] - Attributes
+ * @param {Array|string} [children=[]] - Children
+ * @returns {HTMLElement}
+ */
+export function createElement(tag, attrs = {}, children = []) {
+    const element = document.createElement(tag);
+    
+    // Set attributes
+    for (const [key, value] of Object.entries(attrs)) {
+        if (key === 'class' || key === 'className') {
+            element.className = value;
+        } else if (key === 'style' && typeof value === 'object') {
+            Object.assign(element.style, value);
+        } else if (key === 'data' && typeof value === 'object') {
+            for (const [dataKey, dataValue] of Object.entries(value)) {
+                element.dataset[dataKey] = dataValue;
+            }
+        } else if (key.startsWith('on') && typeof value === 'function') {
+            const eventName = key.slice(2).toLowerCase();
+            element.addEventListener(eventName, value);
+        } else if (key === 'html') {
+            // Skip - use children instead for safety
+        } else {
+            element.setAttribute(key, escapeHtml(String(value)));
+        }
+    }
+    
+    // Add children
+    const childArray = Array.isArray(children) ? children : [children];
+    for (const child of childArray) {
+        if (typeof child === 'string') {
+            element.appendChild(document.createTextNode(child));
+        } else if (child instanceof Node) {
+            element.appendChild(child);
+        }
+    }
+    
+    return element;
+}
+
+/**
+ * Remove all children from element
+ * @param {Element} element 
+ */
+export function clearElement(element) {
+    while (element.firstChild) {
+        element.removeChild(element.firstChild);
+    }
+}
+
+/**
+ * Toggle class with optional force parameter
+ * @param {Element} element 
+ * @param {string} className 
+ * @param {boolean} [force] 
+ */
+export function toggleClass(element, className, force) {
+    if (element) {
+        element.classList.toggle(className, force);
+    }
+}
+
+/**
+ * Add multiple classes
+ * @param {Element} element 
+ * @param {...string} classNames 
+ */
+export function addClass(element, ...classNames) {
+    if (element) {
+        element.classList.add(...classNames);
+    }
+}
+
+/**
+ * Remove multiple classes
+ * @param {Element} element 
+ * @param {...string} classNames 
+ */
+export function removeClass(element, ...classNames) {
+    if (element) {
+        element.classList.remove(...classNames);
+    }
+}
+
+/**
+ * Check if element has class
+ * @param {Element} element 
+ * @param {string} className 
+ * @returns {boolean}
+ */
+export function hasClass(element, className) {
+    return element ? element.classList.contains(className) : false;
+}
+
+/**
+ * Set multiple attributes
+ * @param {Element} element 
+ * @param {Object} attrs 
+ */
+export function setAttributes(element, attrs) {
+    if (!element) return;
+    
+    for (const [key, value] of Object.entries(attrs)) {
+        if (value === null || value === undefined) {
+            element.removeAttribute(key);
+        } else {
+            element.setAttribute(key, value);
+        }
+    }
+}
+
+/**
+ * Delegate event listener
+ * @param {Element} parent 
+ * @param {string} eventType 
+ * @param {string} selector 
+ * @param {Function} handler 
+ * @returns {Function} - Cleanup function
+ */
+export function delegate(parent, eventType, selector, handler) {
+    const listener = (event) => {
+        const target = event.target.closest(selector);
+        if (target && parent.contains(target)) {
+            handler.call(target, event, target);
+        }
+    };
+    
+    parent.addEventListener(eventType, listener);
+    
+    // Return cleanup function
+    return () => parent.removeEventListener(eventType, listener);
+}
+
+/**
+ * Debounce function calls
+ * @param {Function} func 
+ * @param {number} wait 
+ * @returns {Function}
+ */
+export function debounce(func, wait) {
+    let timeout;
+    
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+/**
+ * Throttle function calls
+ * @param {Function} func 
+ * @param {number} limit 
+ * @returns {Function}
+ */
+export function throttle(func, limit) {
+    let inThrottle;
+    
+    return function executedFunction(...args) {
+        if (!inThrottle) {
+            func(...args);
+            inThrottle = true;
+            setTimeout(() => inThrottle = false, limit);
+        }
+    };
+}
+
+/**
+ * Wait for DOM content loaded
+ * @returns {Promise}
+ */
+export function ready() {
+    return new Promise(resolve => {
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', resolve);
+        } else {
+            resolve();
+        }
+    });
+}
+
+/**
+ * Animate element with CSS classes
+ * @param {Element} element 
+ * @param {string} animationClass 
+ * @returns {Promise}
+ */
+export function animate(element, animationClass) {
+    return new Promise(resolve => {
+        element.classList.add(animationClass);
+        
+        const handleAnimationEnd = () => {
+            element.classList.remove(animationClass);
+            element.removeEventListener('animationend', handleAnimationEnd);
+            resolve();
+        };
+        
+        element.addEventListener('animationend', handleAnimationEnd);
+    });
+}
+
+/**
+ * Show element with animation
+ * @param {Element} element 
+ */
+export function show(element) {
+    if (element) {
+        element.style.display = '';
+        element.classList.add('active');
+    }
+}
+
+/**
+ * Hide element with animation
+ * @param {Element} element 
+ */
+export function hide(element) {
+    if (element) {
+        element.classList.remove('active');
+        element.style.display = 'none';
+    }
+}
+```
+
+---
+
+## ✅ Final Checklist
+
+Ab aapke paas **complete runnable project** hai:
+
+| File | Status | Purpose |
+|------|--------|---------|
+| `index.html` | ✅ Complete | Main HTML with all DOM IDs |
+| `css/variables.css` | ✅ Complete | CSS design tokens |
+| `css/themes/light.css` | ✅ Complete | Light theme colors |
+| `css/themes/dark.css` | ✅ Complete | Dark theme colors |
+| `css/style.css` | ✅ Complete | Base styles + utilities |
+| `css/components/upload.css` | ✅ Complete | Upload area styles |
+| `css/components/preview.css` | ✅ Complete | Preview grid styles |
+| `css/components/settings.css` | ✅ Complete | Settings panel styles |
+| `css/components/progress.css` | ✅ Complete | Progress bar styles |
+| `css/components/download.css` | ✅ Complete | Download section styles |
+| `css/components/toast.css` | ✅ Complete | Toast notifications |
+| `js/utils/dom.js` | ✅ Complete | DOM helper utilities |
+| `package.json` | ✅ Complete | Project config |
+| `.gitignore` | ✅ Complete | Git ignore rules |
+| `README.md` | ✅ Complete | Documentation |
+| `LICENSE` | ✅ Complete | MIT License |
+| External: JSZip | ✅ In HTML | ZIP support |
+| External: Font Awesome | ✅ In HTML | Icons |
+| External: Google Fonts | ✅ In HTML | Typography |
+
+---
+
+## 🚀 Deployment Steps
+
+```bash
+# 1. Create project folder
+mkdir image-converter
+cd image-converter
+
+# 2. Create all files as provided above
+
+# 3. Initialize git
+git init
+git add .
+git commit -m "Initial commit: All-in-One Image Converter v2.0.0"
+
+# 4. Create GitHub repository and push
+git remote add origin https://github.com/oathanrex/image-converter.git
+git branch -M main
+git push -u origin main
+
+# 5. Enable GitHub Pages
+# Go to: Settings → Pages → Source: main → Save
+
+# 6. Your app is live at:
+# https://oathanrex.github.io/image-converter/
+```
+
+---
+
+**Ab aapka project 100% complete aur production-ready hai!** 🎉
