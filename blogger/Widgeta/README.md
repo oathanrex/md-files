@@ -66,7 +66,8 @@ This tool is intentionally designed to work **without WordPress**, plugins, or h
 
 ### Step 1 — Project Planning & Prompts
 
-**File:** `Prompts.md`
+**File:**
+👉 **[Prompts.md](https://github.com/oathanrex/md-files/blob/main/blogger/Widgeta/Prompts.md)**
 
 * Defines the complete product vision
 * Breaks development into AI-friendly chunks
@@ -76,7 +77,8 @@ This tool is intentionally designed to work **without WordPress**, plugins, or h
 
 ### Step 2 — Widget Engine (Core SDK)
 
-**File:** `Lightweight Blogger Widget SDK (widget.js).md`
+**File:**
+👉 **[Lightweight Blogger Widget SDK (widget.js).md](https://github.com/oathanrex/md-files/blob/main/blogger/Widgeta/Lightweight%20Blogger%20Widget%20SDK%20%28widget.js%29.md)**
 
 The `widget.js` script:
 
@@ -92,7 +94,8 @@ This script is hosted on a CDN and reused across all user sites.
 
 ### Step 3 — Editor Base Setup
 
-**File:** `Notion-Style WYSIWYG Editor with Next.js, Tailwind CSS & Tiptap.md`
+**File:**
+👉 **[Notion-Style WYSIWYG Editor with Next.js, Tailwind CSS & Tiptap.md](https://github.com/oathanrex/md-files/blob/main/blogger/Widgeta/Notion-Style%20WYSIWYG%20Editor%20with%20Next.js%2C%20Tailwind%20CSS%20%26%20Tiptap.md)**
 
 * Built with **Next.js** and **Tailwind CSS**
 * Uses **Tiptap** for a modern editing experience
@@ -103,7 +106,8 @@ This script is hosted on a CDN and reused across all user sites.
 
 ### Step 4 — Custom Content Blocks
 
-**File:** `Custom Tiptap Extensions: CTA, FAQ, and Pros-Cons Blocks.md`
+**File:**
+👉 **[Custom Tiptap Extensions: CTA, FAQ, and Pros-Cons Blocks.md](https://github.com/oathanrex/md-files/blob/main/blogger/Widgeta/Custom%20Tiptap%20Extensions%3A%20CTA%2C%20FAQ%2C%20and%20Pros-Cons%20Blocks.md)**
 
 Custom blocks include:
 
@@ -117,7 +121,8 @@ These blocks are designed to export **semantic, widget-friendly HTML**.
 
 ### Step 5 — Clean HTML Export
 
-**File:** `Clean HTML Export with Semantic Classes.md`
+**File:**
+👉 **[Clean HTML Export with Semantic Classes.md](https://github.com/oathanrex/md-files/blob/main/blogger/Widgeta/Clean%20HTML%20Export%20with%20Semantic%20Classes.md)**
 
 Critical design rule:
 
@@ -135,7 +140,8 @@ All styling and behavior is handled later by `widget.js`.
 
 ### Step 6 — Real-Time Stats Sidebar
 
-**File:** `Real-Time Stats Sidebar Integration.md`
+**File:**
+👉 **[Real-Time Stats Sidebar Integration.md](https://github.com/oathanrex/md-files/blob/main/blogger/Widgeta/Real-Time%20Stats%20Sidebar%20Integration.md)**
 
 * Keyword density calculation
 * Reading time estimation
@@ -146,7 +152,8 @@ All styling and behavior is handled later by `widget.js`.
 
 ### Step 7 — Copy to Clipboard (Final UX)
 
-**File:** `Copy to Clipboard with Script Tag & Instructions.md`
+**File:**
+👉 **[Copy to Clipboard with Script Tag & Instructions.md](https://github.com/oathanrex/md-files/blob/main/blogger/Widgeta/Copy%20to%20Clipboard%20with%20Script%20Tag%20%26%20Instructions.md)**
 
 A single button copies:
 
