@@ -15,6 +15,8 @@ After the review, provide:
 4. Optional advanced enhancements or alternative implementations."
 
 ---
+> Review this code for security vulnerabilities, edge cases, and performance bottlenecks. Suggest improvements."
+---
 Below is a **clear, professional version**, suitable for explaining how to ask AI to fix code properly. The meaning and structure are preserved, but the language is polished and natural.
 
 ---
@@ -75,8 +77,6 @@ If the AI keeps making the same mistake, say this:
 ## Example of a Good Debugging Prompt
 
 > “I tried the Python code you provided, but I’m getting an `IndexError` on line 15. The loop boundary might be incorrect. Please fix it and provide the full updated code below.”
-> Review this code for security vulnerabilities, edge cases, and performance bottlenecks. Suggest improvements."
-
 ---
 
 **If you have a specific piece of code that is not working right now, you can try this.**
