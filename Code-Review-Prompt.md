@@ -108,3 +108,17 @@ OUTPUT FORMAT:
 - Do not include any extra commentary, emojis, or personal text.
 ---
 
+
+### The Master Prompt for (SEO):
+
+> **"I am sharing my `html` file for an online tool. I need to update the text content and SEO meta-tags for better Google ranking and AdSense approval. Please follow these strict rules:**
+> 1. **SEO Optimization:** Use a human-like, helpful tone. 
+> 2. **AdSense Friendly:** Add a clear FAQ section and use-case descriptions in simple, conversational English.
+> 3. **DO NOT TOUCH THE CODE:** Do not modify any JavaScript logic, CSS styles, or the core canvas functionality. Only update the HTML tags (Title, Meta, H1, H2, P, and Info sections).
+> 4. **Humanize Content:** Ensure the text doesn't sound robotic or AI-generated. Use a 'problem-solver' approach for the user.
+> 
+> 
+> **Here is my current file code:** > [Paste your code here]"
+
+---
+
