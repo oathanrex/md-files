@@ -122,3 +122,4 @@ OUTPUT FORMAT:
 
 ---
 
+> **“Review your previous response. Check if there are any logic, edge cases, error handling, time and space complexity, performance bottlenecks, memory usage, security vulnerabilities, architecture quality, coding style, naming conventions, readability, maintainability, scalability, and test coverage. Identify all potential bugs and real-world failure scenarios. Double-check everything and provide a working version of the code.”**
