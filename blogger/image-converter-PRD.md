@@ -4729,8 +4729,606 @@ To create the most comprehensive, privacy-respecting image processing tool that 
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
+## NEW SECTION: Business & Sustainability
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    BUSINESS & SUSTAINABILITY                            │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  MONETIZATION STRATEGY (Optional - Keep Core Free)                     │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  REVENUE STREAMS (Non-intrusive)                                 │   │
+│  │                                                                  │   │
+│  │  1. DONATIONS (Primary)                                          │   │
+│  │     ├── Buy Me a Coffee integration                              │   │
+│  │     ├── GitHub Sponsors                                          │   │
+│  │     ├── One-time & recurring options                             │   │
+│  │     └── Prominent but non-intrusive placement                   │   │
+│  │                                                                  │   │
+│  │  2. AFFILIATE LINKS (Secondary)                                  │   │
+│  │     ├── Recommend premium tools (Photoshop, Canva Pro)          │   │
+│  │     ├── Stock photo sites                                        │   │
+│  │     ├── Web hosting recommendations                              │   │
+│  │     └── Clearly labeled as affiliate                            │   │
+│  │                                                                  │   │
+│  │  3. SPONSORED PRESETS (Future)                                   │   │
+│  │     ├── Brand-sponsored filter presets                          │   │
+│  │     ├── Platform-specific presets (Shopify, etc.)               │   │
+│  │     └── Clearly marked as sponsored                             │   │
+│  │                                                                  │   │
+│  │  WHAT STAYS FREE FOREVER                                         │   │
+│  │  ├── All core conversion features                               │   │
+│  │  ├── All editing tools                                          │   │
+│  │  ├── Batch processing                                           │   │
+│  │  ├── No watermarks on output                                    │   │
+│  │  ├── No file limits                                             │   │
+│  │  └── No sign-up required                                        │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  LONG-TERM MAINTENANCE                                                  │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  MAINTENANCE REQUIREMENTS                                        │   │
+│  │  ├── Monthly: Security updates, dependency checks               │   │
+│  │  ├── Quarterly: Browser compatibility testing                   │   │
+│  │  ├── Bi-annually: Feature updates, UX improvements              │   │
+│  │  └── Annually: Major version updates, performance audit         │   │
+│  │                                                                  │   │
+│  │  ESTIMATED EFFORT                                                │   │
+│  │  ├── Maintenance: 4-8 hours/month                               │   │
+│  │  ├── Bug fixes: 2-4 hours/month                                 │   │
+│  │  ├── Feature updates: 10-20 hours/quarter                       │   │
+│  │  └── Total: ~10-15 hours/month average                          │   │
+│  │                                                                  │   │
+│  │  SUSTAINABILITY PLAN                                             │   │
+│  │  ├── Open source community contributions                        │   │
+│  │  ├── Documentation for self-maintenance                         │   │
+│  │  ├── Automated testing for regression                           │   │
+│  │  └── Modular architecture for easy updates                      │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
 ---
 
+## REVISED: MVP vs Full Product (Clearer Prioritization)
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                     MVP vs FULL PRODUCT                                 │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  MVP (Minimum Viable Product) - Launch in 4 weeks                      │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  MUST HAVE (Week 1-4) ████████████████████████████████████████  │   │
+│  │                                                                  │   │
+│  │  Core Conversion                                                 │   │
+│  │  ├── [✓] JPEG, PNG, WebP input/output                           │   │
+│  │  ├── [✓] Quality slider (1-100%)                                │   │
+│  │  ├── [✓] Basic resize (custom + 10 presets)                     │   │
+│  │  └── [✓] Single file download                                   │   │
+│  │                                                                  │   │
+│  │  Upload & UI                                                     │   │
+│  │  ├── [✓] Drag & drop upload                                     │   │
+│  │  ├── [✓] Click to browse                                        │   │
+│  │  ├── [✓] Clipboard paste                                        │   │
+│  │  ├── [✓] Image preview                                          │   │
+│  │  ├── [✓] Light/dark theme                                       │   │
+│  │  └── [✓] Mobile responsive                                      │   │
+│  │                                                                  │   │
+│  │  Basic Batch                                                     │   │
+│  │  ├── [✓] Multi-file upload (up to 20)                          │   │
+│  │  ├── [✓] Progress indicator                                     │   │
+│  │  ├── [✓] ZIP download                                           │   │
+│  │  └── [✓] Error handling                                         │   │
+│  │                                                                  │   │
+│  │  MVP METRICS                                                     │   │
+│  │  ├── Time to build: 4 weeks                                     │   │
+│  │  ├── Files: ~10 (HTML, CSS, 4-5 JS modules)                    │   │
+│  │  ├── Bundle size: < 100KB                                       │   │
+│  │  └── Features: 15-20                                            │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  VERSION 1.5 - Enhanced (Week 5-8)                                      │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  SHOULD HAVE ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │   │
+│  │                                                                  │   │
+│  │  Editing Tools                                                   │   │
+│  │  ├── [ ] Crop with aspect ratios                                │   │
+│  │  ├── [ ] Rotate (90°, 180°, custom)                             │   │
+│  │  ├── [ ] Flip horizontal/vertical                               │   │
+│  │  ├── [ ] Basic adjustments (brightness, contrast, saturation)   │   │
+│  │  └── [ ] 15 preset filters                                      │   │
+│  │                                                                  │   │
+│  │  Enhanced Batch                                                  │   │
+│  │  ├── [ ] Up to 50 files                                         │   │
+│  │  ├── [ ] Naming patterns                                        │   │
+│  │  ├── [ ] Web Worker processing                                  │   │
+│  │  └── [ ] Cancel functionality                                   │   │
+│  │                                                                  │   │
+│  │  UX Improvements                                                 │   │
+│  │  ├── [ ] Before/after comparison                                │   │
+│  │  ├── [ ] Keyboard shortcuts (10 essential)                      │   │
+│  │  ├── [ ] Undo/redo (10 steps)                                   │   │
+│  │  └── [ ] Toast notifications                                    │   │
+│  │                                                                  │   │
+│  │  Additional: 4 weeks, ~30 features                              │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  VERSION 2.0 - Professional (Week 9-12)                                 │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  NICE TO HAVE ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │   │
+│  │                                                                  │   │
+│  │  Advanced Editing                                                │   │
+│  │  ├── [ ] Color curves & levels                                  │   │
+│  │  ├── [ ] HSL adjustments                                        │   │
+│  │  ├── [ ] Blur effects (Gaussian, tilt-shift)                   │   │
+│  │  ├── [ ] Sharpen                                                │   │
+│  │  ├── [ ] Vignette                                               │   │
+│  │  └── [ ] Film grain                                             │   │
+│  │                                                                  │   │
+│  │  Watermark                                                       │   │
+│  │  ├── [ ] Text watermark                                         │   │
+│  │  ├── [ ] Image watermark                                        │   │
+│  │  ├── [ ] Position presets                                       │   │
+│  │  └── [ ] Opacity control                                        │   │
+│  │                                                                  │   │
+│  │  Pro Features                                                    │   │
+│  │  ├── [ ] Metadata viewer                                        │   │
+│  │  ├── [ ] Metadata stripping                                     │   │
+│  │  ├── [ ] Up to 100 files batch                                  │   │
+│  │  ├── [ ] Preset saving                                          │   │
+│  │  └── [ ] Settings export/import                                 │   │
+│  │                                                                  │   │
+│  │  Additional: 4 weeks, ~40 features                              │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  VERSION 3.0 - Complete (Future)                                        │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  FUTURE ENHANCEMENTS ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  │   │
+│  │                                                                  │   │
+│  │  Special Features (When time permits)                           │   │
+│  │  ├── [ ] GIF frame extraction                                   │   │
+│  │  ├── [ ] GIF creation                                           │   │
+│  │  ├── [ ] Simple collage (2-4 images)                           │   │
+│  │  ├── [ ] PDF creation                                           │   │
+│  │  ├── [ ] Color palette extraction                               │   │
+│  │  └── [ ] Image comparison analysis                              │   │
+│  │                                                                  │   │
+│  │  PWA & Offline                                                   │   │
+│  │  ├── [ ] Service Worker                                         │   │
+│  │  ├── [ ] Offline support                                        │   │
+│  │  ├── [ ] Install prompt                                         │   │
+│  │  └── [ ] Session recovery                                       │   │
+│  │                                                                  │   │
+│  │  Timeframe: 4-8 additional weeks                                │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## NEW SECTION: Competitive Positioning
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                   COMPETITIVE POSITIONING                               │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  COMPETITOR ANALYSIS                                                    │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  Competitor       │ Pros              │ Cons                    │   │
+│  │  ─────────────────┼───────────────────┼─────────────────────── │   │
+│  │                   │                   │                         │   │
+│  │  Squoosh          │ Fast, Google-made │ Single file only,       │   │
+│  │  (squoosh.app)    │ Great compression │ No batch, Limited edit  │   │
+│  │                   │                   │                         │   │
+│  │  TinyPNG          │ Excellent compress│ Server upload (!),      │   │
+│  │  (tinypng.com)    │ API available     │ 20 file limit, No edit  │   │
+│  │                   │                   │                         │   │
+│  │  iLoveIMG         │ Many tools        │ Server upload (!),      │   │
+│  │  (iloveimg.com)   │ Batch support     │ Watermark on free,     │   │
+│  │                   │                   │ Ads, Slow               │   │
+│  │                   │                   │                         │   │
+│  │  Photopea         │ Full Photoshop    │ Complex for simple      │   │
+│  │  (photopea.com)   │ Very powerful     │ tasks, Ads, Heavy       │   │
+│  │                   │                   │                         │   │
+│  │  Canva            │ Design focused    │ Account required,       │   │
+│  │  (canva.com)      │ Templates         │ Limited free, Cloud     │   │
+│  │                   │                   │                         │   │
+│  │  ResizeImage.net  │ Simple            │ Server upload (!),      │   │
+│  │                   │                   │ Ads, Limited features   │   │
+│  │                   │                   │                         │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  OUR UNIQUE SELLING POINTS (USPs)                                       │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  1. 100% PRIVACY                                                 │   │
+│  │     ├── Zero server uploads (unlike 90% of competitors)         │   │
+│  │     ├── No account required                                     │   │
+│  │     ├── No tracking/analytics                                   │   │
+│  │     └── Works completely offline                                │   │
+│  │                                                                  │   │
+│  │  2. ALL-IN-ONE                                                   │   │
+│  │     ├── Convert + Resize + Edit + Batch (combined)              │   │
+│  │     ├── No need to visit multiple tools                         │   │
+│  │     └── Consistent interface for all operations                 │   │
+│  │                                                                  │   │
+│  │  3. TRULY FREE                                                   │   │
+│  │     ├── No watermarks ever                                      │   │
+│  │     ├── No file limits (reasonable batch size)                  │   │
+│  │     ├── No premium upsells blocking features                   │   │
+│  │     └── No ads                                                   │   │
+│  │                                                                  │   │
+│  │  4. MODERN & FAST                                                │   │
+│  │     ├── Web Workers for non-blocking processing                 │   │
+│  │     ├── Modern UI with dark mode                                │   │
+│  │     ├── Mobile-first responsive                                 │   │
+│  │     └── PWA installable                                         │   │
+│  │                                                                  │   │
+│  │  5. DEVELOPER FRIENDLY                                           │   │
+│  │     ├── Open source                                             │   │
+│  │     ├── No framework dependencies                               │   │
+│  │     ├── Self-hostable                                           │   │
+│  │     └── Clean, documented code                                  │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  COMPETITIVE MATRIX                                                     │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  Feature              │ Ours │ Squoosh │ TinyPNG │ iLoveIMG    │   │
+│  │  ─────────────────────┼──────┼─────────┼─────────┼───────────  │   │
+│  │  Client-side only     │  ✓   │    ✓    │    ✗    │     ✗       │   │
+│  │  Batch processing     │  ✓   │    ✗    │    ✓    │     ✓       │   │
+│  │  No account needed    │  ✓   │    ✓    │    ✓    │     ✓       │   │
+│  │  Image editing        │  ✓   │    ✗    │    ✗    │     △       │   │
+│  │  Filters/presets      │  ✓   │    ✗    │    ✗    │     ✗       │   │
+│  │  No ads               │  ✓   │    ✓    │    ✓    │     ✗       │   │
+│  │  No watermark         │  ✓   │    ✓    │    ✓    │     ✗       │   │
+│  │  PWA/Offline          │  ✓   │    ✓    │    ✗    │     ✗       │   │
+│  │  Dark mode            │  ✓   │    ✗    │    ✗    │     ✗       │   │
+│  │  Open source          │  ✓   │    ✓    │    ✗    │     ✗       │   │
+│  │  ─────────────────────┼──────┼─────────┼─────────┼───────────  │   │
+│  │  TOTAL (out of 10)    │  10  │    6    │    4    │     3       │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  TARGET POSITIONING STATEMENT                                           │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  "For privacy-conscious creators who need quick image           │   │
+│  │   processing, our Image Converter is the only all-in-one       │   │
+│  │   browser tool that combines conversion, editing, and batch    │   │
+│  │   processing with ZERO server uploads. Unlike TinyPNG or       │   │
+│  │   iLoveIMG, your files never leave your device."               │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## NEW SECTION: Key Assumptions & Risks
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                   KEY ASSUMPTIONS & RISKS                               │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  ASSUMPTIONS                                                            │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  TECHNICAL ASSUMPTIONS                                           │   │
+│  │  ├── Users have modern browsers (Chrome 80+, Firefox 75+, etc.)│   │
+│  │  ├── Canvas API sufficient for all image operations            │   │
+│  │  ├── Web Workers supported by target browsers                  │   │
+│  │  ├── 50MB per file is reasonable limit for browser processing  │   │
+│  │  └── GitHub Pages adequate for hosting (no backend needed)     │   │
+│  │                                                                  │   │
+│  │  USER ASSUMPTIONS                                                │   │
+│  │  ├── Users value privacy over convenience                       │   │
+│  │  ├── Target users process 5-50 images at a time typically      │   │
+│  │  ├── Most users need basic operations (resize, convert)         │   │
+│  │  ├── Professional editing needs are secondary                   │   │
+│  │  └── Users will accept slightly slower processing for privacy   │   │
+│  │                                                                  │   │
+│  │  BUSINESS ASSUMPTIONS                                            │   │
+│  │  ├── Donations can partially offset development time           │   │
+│  │  ├── Portfolio value justifies unpaid development time         │   │
+│  │  ├── Open source community may contribute                      │   │
+│  │  └── No significant hosting costs (GitHub Pages free)          │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  RISKS & MITIGATIONS                                                    │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  RISK                      │ IMPACT │ PROBABILITY │ MITIGATION  │   │
+│  │  ──────────────────────────┼────────┼─────────────┼───────────  │   │
+│  │                            │        │             │             │   │
+│  │  Browser API changes       │ Medium │ Low         │ Feature     │   │
+│  │  break functionality       │        │             │ detection,  │   │
+│  │                            │        │             │ fallbacks   │   │
+│  │                            │        │             │             │   │
+│  │  Memory issues with        │ High   │ Medium      │ Chunk       │   │
+│  │  large files on mobile     │        │             │ processing, │   │
+│  │                            │        │             │ warnings    │   │
+│  │                            │        │             │             │   │
+│  │  Safari/iOS specific       │ Medium │ High        │ Early       │   │
+│  │  bugs                      │        │             │ testing,    │   │
+│  │                            │        │             │ workarounds │   │
+│  │                            │        │             │             │   │
+│  │  Feature creep delays      │ High   │ High        │ Strict MVP, │   │
+│  │  launch                    │        │             │ phase gates │   │
+│  │                            │        │             │             │   │
+│  │  No user adoption          │ Medium │ Medium      │ SEO, social │   │
+│  │                            │        │             │ sharing,    │   │
+│  │                            │        │             │ communities │   │
+│  │                            │        │             │             │   │
+│  │  Maintenance burden        │ Medium │ Medium      │ Modular     │   │
+│  │  becomes unsustainable     │        │             │ code, docs, │   │
+│  │                            │        │             │ automation  │   │
+│  │                            │        │             │             │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  VALIDATION PLAN                                                        │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  Before full development:                                        │   │
+│  │  ├── [✓] Validate Canvas API handles all planned operations    │   │
+│  │  ├── [✓] Test Web Workers in all target browsers               │   │
+│  │  ├── [✓] Verify 50MB files work in browser                     │   │
+│  │  ├── [ ] Test on low-end devices (2GB RAM phone)               │   │
+│  │  └── [ ] Survey potential users on feature priorities           │   │
+│  │                                                                  │   │
+│  │  After MVP:                                                      │   │
+│  │  ├── [ ] Collect user feedback (GitHub issues)                 │   │
+│  │  ├── [ ] Monitor error rates                                    │   │
+│  │  ├── [ ] A/B test feature additions                            │   │
+│  │  └── [ ] Review analytics-free usage patterns (if any)         │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## REVISED: Simplified Development Phases
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                SIMPLIFIED DEVELOPMENT PHASES                            │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  PHASE 1: MVP (4 Weeks) - LAUNCH TARGET                                │
+│  ═══════════════════════════════════════                               │
+│                                                                         │
+│  Week 1: Foundation                                                     │
+│  ├── Project setup, file structure                                     │
+│  ├── HTML structure with accessibility                                  │
+│  ├── CSS with light/dark theme                                         │
+│  ├── Basic JavaScript modules                                           │
+│  └── Deliverable: Empty shell, themed, responsive                      │
+│                                                                         │
+│  Week 2: Core Conversion                                                │
+│  ├── Single file upload (drag/drop/click/paste)                        │
+│  ├── Format conversion (JPEG, PNG, WebP)                               │
+│  ├── Quality slider                                                     │
+│  ├── Basic resize (width/height input)                                 │
+│  ├── Preview display                                                    │
+│  └── Deliverable: Working single-file converter                        │
+│                                                                         │
+│  Week 3: Batch & Download                                               │
+│  ├── Multi-file upload (up to 20 files)                               │
+│  ├── Image grid display                                                 │
+│  ├── Process all button                                                 │
+│  ├── Progress indicator                                                 │
+│  ├── Individual download                                                │
+│  ├── ZIP download                                                       │
+│  └── Deliverable: Working batch processor                              │
+│                                                                         │
+│  Week 4: Polish & Launch                                                │
+│  ├── Error handling & messages                                         │
+│  ├── 10 resize presets                                                  │
+│  ├── About section, footer links                                       │
+│  ├── README, documentation                                              │
+│  ├── Cross-browser testing                                              │
+│  ├── Mobile testing                                                     │
+│  └── Deliverable: MVP LAUNCH                                           │
+│                                                                         │
+│  ───────────────────────────────────────────────────────────────────   │
+│  MVP SCOPE: ~20 features, 100% usable product                          │
+│  ───────────────────────────────────────────────────────────────────   │
+│                                                                         │
+│  PHASE 2: ENHANCED (4 Weeks) - After MVP feedback                      │
+│  ═══════════════════════════════════════════════                       │
+│                                                                         │
+│  Week 5-6: Editing Tools                                                │
+│  ├── Crop with aspect ratios                                           │
+│  ├── Rotate (90°, 180°, custom)                                        │
+│  ├── Flip horizontal/vertical                                          │
+│  ├── Brightness, contrast, saturation                                  │
+│  └── Deliverable: Basic editing suite                                  │
+│                                                                         │
+│  Week 7-8: Filters & UX                                                 │
+│  ├── 15 preset filters                                                  │
+│  ├── Before/after comparison                                           │
+│  ├── Undo/redo (10 steps)                                              │
+│  ├── Keyboard shortcuts (10 essential)                                 │
+│  ├── Web Worker processing                                              │
+│  └── Deliverable: v1.5 Release                                         │
+│                                                                         │
+│  ───────────────────────────────────────────────────────────────────   │
+│  v1.5 SCOPE: ~40 features total                                        │
+│  ───────────────────────────────────────────────────────────────────   │
+│                                                                         │
+│  PHASE 3: PROFESSIONAL (4 Weeks) - Based on demand                     │
+│  ═════════════════════════════════════════════════                     │
+│                                                                         │
+│  Week 9-10: Advanced Features                                           │
+│  ├── Watermark (text + image)                                          │
+│  ├── More filters (30 total)                                           │
+│  ├── Color adjustments (HSL)                                           │
+│  ├── Blur/sharpen effects                                              │
+│  └── Deliverable: Pro editing tools                                    │
+│                                                                         │
+│  Week 11-12: Polish & PWA                                               │
+│  ├── Metadata viewer/stripper                                          │
+│  ├── Preset saving                                                      │
+│  ├── Service Worker (offline)                                          │
+│  ├── PWA manifest                                                       │
+│  ├── Performance optimization                                          │
+│  └── Deliverable: v2.0 Release                                         │
+│                                                                         │
+│  ───────────────────────────────────────────────────────────────────   │
+│  v2.0 SCOPE: ~80 features total                                        │
+│  ───────────────────────────────────────────────────────────────────   │
+│                                                                         │
+│  FUTURE PHASES (As time permits)                                        │
+│  ═══════════════════════════════                                       │
+│  ├── GIF handling                                                       │
+│  ├── Simple collage                                                     │
+│  ├── PDF creation                                                       │
+│  ├── Color palette extraction                                          │
+│  └── Advanced analysis                                                  │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## REVISED: Realistic Effort Estimation
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                   REALISTIC EFFORT ESTIMATION                           │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  DEVELOPMENT EFFORT                                                     │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  Component                │ Hours (Est.) │ Complexity           │   │
+│  │  ─────────────────────────┼──────────────┼───────────────────── │   │
+│  │                           │              │                       │   │
+│  │  HTML/Structure           │     8        │ Low                   │   │
+│  │  CSS/Theming              │    16        │ Medium                │   │
+│  │  Core Converter Module    │    24        │ Medium                │   │
+│  │  Resize Logic             │    12        │ Medium                │   │
+│  │  Upload System            │    16        │ Medium                │   │
+│  │  Batch Processing         │    20        │ High                  │   │
+│  │  ZIP Creation             │    12        │ Medium                │   │
+│  │  Error Handling           │    10        │ Medium                │   │
+│  │  Testing & Debugging      │    20        │ Medium                │   │
+│  │  Documentation            │     8        │ Low                   │   │
+│  │  ─────────────────────────┼──────────────┼───────────────────── │   │
+│  │  MVP TOTAL                │   ~146 hrs   │ 4 weeks @ 40hr/wk   │   │
+│  │                           │              │                       │   │
+│  │  ─────────────────────────┼──────────────┼───────────────────── │   │
+│  │  Crop Tool                │    16        │ Medium                │   │
+│  │  Rotation/Flip            │     8        │ Low                   │   │
+│  │  Basic Adjustments        │    20        │ Medium                │   │
+│  │  Filter Presets           │    24        │ Medium                │   │
+│  │  Comparison View          │    12        │ Medium                │   │
+│  │  Undo/Redo                │    16        │ High                  │   │
+│  │  Web Workers              │    20        │ High                  │   │
+│  │  Keyboard Shortcuts       │     8        │ Low                   │   │
+│  │  Testing Phase 2          │    16        │ Medium                │   │
+│  │  ─────────────────────────┼──────────────┼───────────────────── │   │
+│  │  v1.5 ADDITIONAL          │   ~140 hrs   │ 4 more weeks         │   │
+│  │                           │              │                       │   │
+│  │  ─────────────────────────┼──────────────┼───────────────────── │   │
+│  │  Watermark System         │    24        │ High                  │   │
+│  │  Advanced Filters         │    16        │ Medium                │   │
+│  │  Color Adjustments        │    20        │ High                  │   │
+│  │  Blur/Sharpen             │    12        │ Medium                │   │
+│  │  Metadata Handler         │    20        │ High                  │   │
+│  │  PWA/Service Worker       │    16        │ Medium                │   │
+│  │  Optimization             │    16        │ Medium                │   │
+│  │  Testing Phase 3          │    16        │ Medium                │   │
+│  │  ─────────────────────────┼──────────────┼───────────────────── │   │
+│  │  v2.0 ADDITIONAL          │   ~140 hrs   │ 4 more weeks         │   │
+│  │                           │              │                       │   │
+│  │  ═══════════════════════════════════════════════════════════════│   │
+│  │  TOTAL FOR v2.0           │   ~426 hrs   │ 12 weeks            │   │
+│  │                           │              │                       │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+│  RECOMMENDED APPROACH                                                   │
+│  ┌─────────────────────────────────────────────────────────────────┐   │
+│  │                                                                  │   │
+│  │  1. BUILD MVP FIRST (4 weeks)                                   │   │
+│  │     • Get something live and usable                             │   │
+│  │     • Collect real user feedback                                │   │
+│  │     • Validate core assumptions                                 │   │
+│  │                                                                  │   │
+│  │  2. ITERATE BASED ON FEEDBACK                                   │   │
+│  │     • Users want editing? → Add Phase 2                        │   │
+│  │     • Users want watermarks? → Prioritize that                 │   │
+│  │     • No one cares about GIFs? → Skip that                     │   │
+│  │                                                                  │   │
+│  │  3. AVOID SCOPE CREEP                                           │   │
+│  │     • Stick to phase boundaries                                 │   │
+│  │     • New ideas go to "Future" list                            │   │
+│  │     • Launch early, iterate often                               │   │
+│  │                                                                  │   │
+│  └─────────────────────────────────────────────────────────────────┘   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Summary of Improvements
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    IMPROVEMENTS MADE                                    │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  ADDED SECTIONS                                                         │
+│  ├── ✓ Business & Sustainability (monetization, maintenance)          │
+│  ├── ✓ Competitive Positioning (analysis, USPs, matrix)               │
+│  ├── ✓ Key Assumptions & Risks (with mitigations)                     │
+│  └── ✓ Realistic Effort Estimation (hours breakdown)                  │
+│                                                                         │
+│  REVISED SECTIONS                                                       │
+│  ├── ✓ MVP vs Full Product (clearer, tighter phases)                  │
+│  ├── ✓ Development Phases (simplified, realistic timeline)            │
+│  └── ✓ Feature prioritization (Must/Should/Nice-to-have)              │
+│                                                                         │
+│  KEY CHANGES                                                            │
+│  ├── MVP scope reduced to 4-week achievable target                     │
+│  ├── Features clearly categorized by priority                          │
+│  ├── Business sustainability addressed                                  │
+│  ├── Competitive differentiation clarified                             │
+│  ├── Risks identified with mitigations                                 │
+│  └── Hour estimates provided for planning                               │
+│                                                                         │
+│  UPDATED RATING EXPECTATION: 9+ / 10                                   │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
 **END OF PRD DOCUMENT**
 
 This comprehensive PRD covers all features needed to build a professional-grade image converter without any AI-dependent features. Use this document when prompting Claude to build each phase of the application.                              
