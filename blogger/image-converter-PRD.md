@@ -1215,11 +1215,9 @@ To create the most comprehensive, privacy-respecting image processing tool that 
 │  └─────────────────────────────────────────────────────────────────┘   │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
-```
 
 ### 9.6 Preset Filters
 
-```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                        PRESET FILTERS                                   │
 ├─────────────────────────────────────────────────────────────────────────┤
@@ -1257,9 +1255,6 @@ To create the most comprehensive, privacy-respecting image processing tool that 
 │  ├── Split Tone     Different tones for shadows/highlights             │
 │  │   ├── Highlight Hue: [0-360]                                        │
 │  │   ├── Shadow Hue: [0-360]                                           │
-### 9.6 Preset Filters (continued)
-
-```
 │  │   └── Balance: [-100 ═══╪═══ +100]                                  │
 │  ├── Infrared       False color infrared                               │
 │  ├── Cyanotype      Blue-tinted print                                  │
