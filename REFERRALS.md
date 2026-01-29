@@ -1,7 +1,7 @@
 # My Referral Links
 
-Yahan par mere useful tools aur services ke referral links hain.  
-In links se signup karne par aapko bonus milta hai aur mujhe commission.
+Here are referral links to my useful tools and services.
+Signing up through these links will give you a bonus and I will receive a commission.
 
 ## Developer Tools
 
