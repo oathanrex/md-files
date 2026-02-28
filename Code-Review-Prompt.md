@@ -123,3 +123,17 @@ OUTPUT FORMAT:
 ---
 
 > **“Review your previous response. Check if there are any logic, edge cases, error handling, time and space complexity, performance bottlenecks, memory usage, security vulnerabilities, architecture quality, coding style, naming conventions, readability, maintainability, scalability, and test coverage. Identify all potential bugs and real-world failure scenarios. Double-check everything and provide a working version of the code.”**
+
+---
+ Read and understand the full source code (~2164 lines)
+ Analyze CSS: variables, selectors, theming, responsive design
+ Analyze HTML structure: semantic correctness, accessibility, SEO
+ Analyze JavaScript: logic, edge cases, error handling, performance
+ Check security vulnerabilities (XSS, injection, etc.)
+ Evaluate architecture, naming, readability, maintainability
+ Assess time/space complexity and memory usage
+ Identify all bugs and real-world failure scenarios
+ Create implementation plan with all fixes
+ Apply all fixes to produce a working version
+ Verify the final code
+ ---
