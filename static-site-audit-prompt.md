@@ -1,4 +1,3 @@
-```
 Role: Principal Web Engineer conducting a 10/10 production audit of perspectivefix.app (Static HTML/CSS/JS architecture — no backend/API).
 
 CRITICAL EXECUTION CONSTRAINTS (Zero Token Waste, Zero Hallucination):
@@ -37,4 +36,3 @@ Part 3: 3-5 bullet high-leverage subjective design suggestions (opinion only, DO
 Part 4: Exactly one line: "X files audited, Y bugs fixed, Z suggestions flagged."
 
 Begin audit now.
-```
