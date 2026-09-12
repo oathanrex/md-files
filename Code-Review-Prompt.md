@@ -137,3 +137,12 @@ OUTPUT FORMAT:
  Apply all fixes to produce a working version
  Verify the final code
  ---
+
+**Perform Comprehensive Bug Fixing**
+> Conduct a comprehensive audit of the provided HTML code to identify and fix all bugs and functional issues. This includes checking for broken links, JavaScript errors, improper element rendering, and any other anomalies that detract from a smooth user experience. Ensure all interactive elements function as expected.
+
+**Refine Color Palette and UI Aesthetics**
+> Review and update the color palette of the HTML page to ensure it is both aesthetically pleasing and accessible. Choose a modern set of colors that meets WCAG 2.1 AA contrast requirements for text and background elements. Provide a CSS file that defines these colors and applies them consistently across all UI components, including buttons, links, and form elements.
+
+**Implement WCAG 2.1 AA Compliance**
+> Refactor the existing HTML code to be fully compliant with WCAG 2.1 Level AA standards. This includes adding ARIA roles and attributes where necessary, ensuring logical heading structures, providing text alternatives for all non-text content, and making sure all interactive elements are keyboard-focusable and operable. Also, verify that all color combinations used in the UI meet the contrast ratio requirements specified by WCAG 2.1 AA.
