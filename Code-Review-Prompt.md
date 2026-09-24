@@ -146,3 +146,9 @@ OUTPUT FORMAT:
 
 **Implement WCAG 2.1 AA Compliance**
 > Refactor the existing HTML code to be fully compliant with WCAG 2.1 Level AA standards. This includes adding ARIA roles and attributes where necessary, ensuring logical heading structures, providing text alternatives for all non-text content, and making sure all interactive elements are keyboard-focusable and operable. Also, verify that all color combinations used in the UI meet the contrast ratio requirements specified by WCAG 2.1 AA.
+
+**Add Semantic HTML5 Elements**
+> Refactor the provided HTML code to use semantic HTML5 elements where appropriate. Specifically, identify sections that can be marked up using <header>, <nav>, <main>, <article>, <section>, and <footer> to improve the document's structure and accessibility.
+
+**Fix ARIA Lable**
+> Review the provided HTML code for accessibility. Implement appropriate ARIA roles and attributes (e.g., `aria-label`, `role`, `aria-expanded`) on interactive elements, form controls, and dynamic content to improve usability for people using assistive technologies like screen readers.
